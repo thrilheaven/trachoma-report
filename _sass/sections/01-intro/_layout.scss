@@ -4,7 +4,7 @@
 }
 
 .report__header {
-  @include layout__center(960px);
+  @include layout__center();
 
   background: $sea-opacity;
   color: $white;

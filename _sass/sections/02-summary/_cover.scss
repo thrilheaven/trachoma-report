@@ -1,0 +1,16 @@
+.section_2_cover {
+  @include layout__cover();
+  @include layout__cover__image('photos/exec.jpg');
+
+  .layout__centre {
+    @include layout__center();
+  }
+
+  .section__title {
+    @include section__cover__title($summary);
+  }
+
+  .section__cover__detail {
+    @include section__cover__photo__detail($summary);
+  }
+}

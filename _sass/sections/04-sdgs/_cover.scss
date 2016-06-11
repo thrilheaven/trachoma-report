@@ -1,0 +1,17 @@
+.section_4_cover {
+  @include layout__cover();
+  @include layout__cover__image('photos/sdgs.jpg');
+
+  .layout__centre {
+    @include layout__center();
+  }
+
+  .section__title {
+    @include section__cover__title($sdgs);
+    width: 360px;
+  }
+
+  .section__cover__detail {
+    @include section__cover__photo__detail($sdgs);
+  }
+}

@@ -1,4 +1,4 @@
-@mixin layout__center($width) {
+@mixin layout__center($width: 960px) {
     margin: 0 auto;
     width: $width;
 }
