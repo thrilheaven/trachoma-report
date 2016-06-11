@@ -1,10 +1,12 @@
 .section_1_cover {
   @include layout__cover();
   @include layout__cover__image('photos/cover.jpg');
+  @include section__cover__scroll();
 }
 
 .report__header {
   @include layout__center();
+  z-index: 100;
 
   background: $sea-opacity;
   color: $white;

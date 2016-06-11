@@ -1,6 +1,7 @@
 .section_3_cover {
   @include layout__cover();
   @include layout__cover__image('photos/what.jpg');
+  @include section__cover__scroll();
 
   .layout__centre {
     @include layout__center();

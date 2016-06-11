@@ -45,11 +45,25 @@
   height: 100vh;
   background: url("/sites/all/themes/report-2016/images/photos/cover.jpg") 0 0 no-repeat;
   background-size: cover;
+  position: relative;
+}
+.section_1_cover .section__scroll {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  background: url(/sites/all/themes/report-2016/images/icons/scroll.svg) center center no-repeat;
+  height: 34px;
+  width: 100%;
+  padding: 20px 0;
+}
+.section_1_cover .section__scroll__text {
+  display: none;
 }
 
 .report__header {
   margin: 0 auto;
   width: 960px;
+  z-index: 100;
   background: rgba(0, 158, 227, 0.9);
   color: white;
 }
@@ -173,6 +187,19 @@
   height: 100vh;
   background: url("/sites/all/themes/report-2016/images/photos/exec.jpg") 0 0 no-repeat;
   background-size: cover;
+  position: relative;
+}
+.section_2_cover .section__scroll {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  background: url(/sites/all/themes/report-2016/images/icons/scroll.svg) center center no-repeat;
+  height: 34px;
+  width: 100%;
+  padding: 20px 0;
+}
+.section_2_cover .section__scroll__text {
+  display: none;
 }
 .section_2_cover .layout__centre {
   margin: 0 auto;
@@ -204,6 +231,19 @@
   height: 100vh;
   background: url("/sites/all/themes/report-2016/images/photos/what.jpg") 0 0 no-repeat;
   background-size: cover;
+  position: relative;
+}
+.section_3_cover .section__scroll {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  background: url(/sites/all/themes/report-2016/images/icons/scroll.svg) center center no-repeat;
+  height: 34px;
+  width: 100%;
+  padding: 20px 0;
+}
+.section_3_cover .section__scroll__text {
+  display: none;
 }
 .section_3_cover .layout__centre {
   margin: 0 auto;
@@ -235,6 +275,19 @@
   height: 100vh;
   background: url("/sites/all/themes/report-2016/images/photos/sdgs.jpg") 0 0 no-repeat;
   background-size: cover;
+  position: relative;
+}
+.section_4_cover .section__scroll {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  background: url(/sites/all/themes/report-2016/images/icons/scroll.svg) center center no-repeat;
+  height: 34px;
+  width: 100%;
+  padding: 20px 0;
+}
+.section_4_cover .section__scroll__text {
+  display: none;
 }
 .section_4_cover .layout__centre {
   margin: 0 auto;
@@ -267,6 +320,19 @@
   height: 100vh;
   background: url("/sites/all/themes/report-2016/images/photos/what.jpg") 0 0 no-repeat;
   background-size: cover;
+  position: relative;
+}
+.section_5_cover .section__scroll {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  background: url(/sites/all/themes/report-2016/images/icons/scroll.svg) center center no-repeat;
+  height: 34px;
+  width: 100%;
+  padding: 20px 0;
+}
+.section_5_cover .section__scroll__text {
+  display: none;
 }
 .section_5_cover .layout__centre {
   margin: 0 auto;

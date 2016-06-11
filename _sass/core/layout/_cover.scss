@@ -27,3 +27,22 @@
 
   @include typography-base('xBd', 16px 20px);
 }
+
+@mixin section__cover__scroll() {
+  position: relative;
+
+  .section__scroll{
+    position: absolute;
+    bottom: 0;
+
+    display: block;
+    background: url(/sites/all/themes/report-2016/images/icons/scroll.svg) center center no-repeat;
+    height: 34px;
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .section__scroll__text {
+    display: none;
+  }
+}
