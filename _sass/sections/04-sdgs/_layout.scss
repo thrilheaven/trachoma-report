@@ -1,0 +1,4 @@
+.section_4_cover {
+  @include layout__cover();
+  @include layout__cover__image('photos/sdgs.jpg');
+}

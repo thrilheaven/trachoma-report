@@ -1,0 +1,4 @@
+.section_1_cover {
+  @include layout__cover();
+  @include layout__cover__image('photos/cover.jpg');
+}

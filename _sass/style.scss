@@ -1,0 +1,6 @@
+@import 'core/index',
+        'sections/index';
+
+@include normalize();
+
+@include layout__center(960px);

@@ -1,0 +1,18 @@
+@mixin layout__center($width) {
+  .layout__centered {
+    margin: 0 auto;
+    max-width: $width;
+  }
+}
+
+@mixin layout__cover() {
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+
+@mixin layout__cover__image($url) {
+  $url: '/sites/all/themes/report-2016/images/#{$url}';
+  background: url($url) 0 0 no-repeat;
+  background-size: cover;
+}

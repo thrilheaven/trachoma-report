@@ -2,9 +2,6 @@ GEM
   remote: https://rubygems.org/
   specs:
     blankslate (2.1.2.4)
-    breakpoint (2.0.7)
-      compass (>= 0.12.1)
-      sass (>= 3.2.0)
     celluloid (0.15.2)
       timers (~> 1.1.0)
     chunky_png (1.2.9)
@@ -47,10 +44,6 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     mercenary (0.3.3)
-    modular-scale (1.0.6)
-      compass (>= 0.12.1)
-      sass (>= 3.2.0)
-      sassy-math (>= 1.5)
     parslet (1.5.0)
       blankslate (~> 2.0)
     posix-spawn (0.3.8)
@@ -63,18 +56,6 @@ GEM
     redcarpet (3.1.2)
     safe_yaml (1.0.3)
     sass (3.2.14)
-    sass-globbing (1.1.0)
-      sass (>= 3.1)
-    sassy-math (1.5)
-      compass (~> 0.11)
-    singularity-extras (0.0.3)
-      modular-scale (>= 1.0.6)
-      sassy-math (>= 1.5)
-      singularitygs (>= 0.0.1)
-    singularitygs (1.1.2)
-      breakpoint (>= 2.0.1)
-      compass (>= 0.12.2)
-      sass (>= 3.2.1)
     timers (1.1.0)
     toml (0.1.1)
       parslet (~> 1.5.0)
@@ -84,12 +65,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  breakpoint (~> 2.0.7)
-  compass (~> 0.12.2)
+  compass
   jekyll
-  sass-globbing
-  singularity-extras (~> 0.0.3)
-  singularitygs (~> 1.1.2)
 
 BUNDLED WITH
    1.11.2
