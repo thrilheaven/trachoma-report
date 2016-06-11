@@ -1,0 +1,27 @@
+@function em($value, $base: 16px) {
+  @return ($value / $base) * 1em;
+}
+
+@function rem($value, $base: 16px) {
+  @return ($value / $base) * 1rem;
+}
+
+@mixin typography-base($family, $mobile, $desktop: '') {
+  font-family: font-mapping($family);
+  @if is-font-bold($family) {
+    font-weight: normal;
+  }
+  @if is-font-italic($family) {
+    font-style: normal;
+  }
+
+  font-size: rem(nth($mobile, 1));
+  line-height: em(nth($mobile, 2), nth($mobile, 1));
+
+  @if $desktop != '' {
+    @media screen and (min-width: 600px) {
+      font-size: rem(nth($desktop, 1));
+      line-height: em(nth($desktop, 2), nth($desktop, 1));
+    }
+  }
+}

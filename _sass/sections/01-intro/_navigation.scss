@@ -1,0 +1,43 @@
+.main-navigation {
+  @include layout__list__reset();
+  @include layout__clearfix();
+}
+
+.main-navigation__item {
+  float: left;
+  width: 16.66666%;
+  @include typography-base('xBd', 12px 12px);
+  padding: (28px - 12px)/2 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+.main-navigation__item__home {
+  background: $home;
+  color: white;
+}
+
+.main-navigation__item__summary {
+  background: $summary;
+  color: white;
+}
+
+.main-navigation__item__needs {
+  background: $needs;
+  color: white;
+}
+
+.main-navigation__item__sdgs {
+  background: $sdgs;
+  color: white;
+}
+
+.main-navigation__item__blueprint {
+  background: $blueprint;
+  color: white;
+}
+
+.main-navigation__item__data {
+  background: $data;
+  color: white;
+}

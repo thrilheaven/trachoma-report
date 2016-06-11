@@ -2,3 +2,18 @@
   @include layout__cover();
   @include layout__cover__image('photos/cover.jpg');
 }
+
+.report__header {
+  @include layout__center(960px);
+
+  background: $sea-opacity;
+  color: $white;
+}
+
+.js-report__header {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+
+  background: $sea;
+}

@@ -1,0 +1,43 @@
+@function font-mapping($family) {
+  @if $family == 'xBd' {
+    @return "Proxima N W01 Xbold";
+  } @else if $family == 'Bd' {
+    @return "Proxima N W01 Bold";
+    } @else if $family == 'BdIt' {
+    @return "Proxima N W01 Bold It";
+    } @else if $family == 'RgIt' {
+    @return "Proxima N W01 Reg It";
+} @else if $family == 'Rg' {
+    @return "Proxima Nova W08 Reg";
+  } @else if $family == 'LtIt' {
+    @return "Proxima N W01 Light It";
+  } @else if $family == 'Lt' {
+    @return "Proxima N W01 Light";
+  } @else {
+    @return "Proxima N W01 Light";
+  }
+}
+
+@function is-font-bold($family) {
+  @if $family == 'xBd' {
+    @return true;
+  } @else if $family == 'Bd' {
+    @return true;
+  } @else if $family == 'BdIt' {
+    @return true;
+  } @else {
+    @return false;
+  }
+}
+
+@function is-font-italic($family) {
+  @if $family == 'BdIt' {
+    @return true;
+    } @else if $family == 'RgIt' {
+    @return true;
+  } @else if $family == 'LtIt' {
+    @return true;
+  } @else {
+    @return false;
+  }
+}

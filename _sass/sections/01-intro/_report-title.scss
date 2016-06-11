@@ -1,0 +1,47 @@
+.report__title {
+  padding: (20px - 4px) 20px (20px - 2px) 20px;
+}
+
+.report__title__heading {
+  @include typography-base('xBd', 57px 53px);
+  margin: 0;
+
+  &::after {
+    display: block;
+    content: '';
+    width: 50px;
+    border-bottom: solid 1px $white;
+    margin: (20px - 9px) 0 (10px - 2px) 0;
+  }
+}
+
+.report__title__break {
+  display: block;
+}
+
+.report__title__strapline {
+  @include typography-base('xBd', 18px 20px);
+}
+
+.js-report__header {
+  .report__title {
+    padding: 10px 20px;
+  }
+
+  .report__title__heading {
+    @include typography-base('xBd', 18px 20px);
+    padding: (20px - 9px) 0 (10px - 2px) 0;
+
+    &::after {
+      display: none;
+    }
+  }
+
+  .report__title__break {
+    display: inline;
+  }
+
+  .report__title__strapline {
+    display: none;
+  }
+}
