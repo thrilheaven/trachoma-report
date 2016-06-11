@@ -43,9 +43,9 @@
 .section_1_cover {
   box-sizing: border-box;
   height: 100vh;
+  position: relative;
   background: url("/sites/all/themes/report-2016/images/photos/cover.jpg") 0 0 no-repeat;
   background-size: cover;
-  position: relative;
 }
 .section_1_cover .section__scroll {
   position: absolute;
@@ -185,9 +185,9 @@
 .section_2_cover {
   box-sizing: border-box;
   height: 100vh;
+  position: relative;
   background: url("/sites/all/themes/report-2016/images/photos/exec.jpg") 0 0 no-repeat;
   background-size: cover;
-  position: relative;
 }
 .section_2_cover .section__scroll {
   position: absolute;
@@ -208,6 +208,9 @@
 .section_2_cover .section__title {
   display: inline-block;
   padding: 20px;
+  margin: 0;
+  position: absolute;
+  top: 107px;
   background: #008590;
   color: white;
   font-family: "Proxima N W01 Xbold";
@@ -216,6 +219,8 @@
   line-height: 0.92982em;
 }
 .section_2_cover .section__cover__detail {
+  position: absolute;
+  bottom: 74px;
   padding: 20px;
   width: 234px;
   background: #008590;
@@ -229,9 +234,9 @@
 .section_3_cover {
   box-sizing: border-box;
   height: 100vh;
+  position: relative;
   background: url("/sites/all/themes/report-2016/images/photos/what.jpg") 0 0 no-repeat;
   background-size: cover;
-  position: relative;
 }
 .section_3_cover .section__scroll {
   position: absolute;
@@ -252,6 +257,9 @@
 .section_3_cover .section__title {
   display: inline-block;
   padding: 20px;
+  margin: 0;
+  position: absolute;
+  top: 107px;
   background: #3bb6aa;
   color: white;
   font-family: "Proxima N W01 Xbold";
@@ -260,6 +268,8 @@
   line-height: 0.92982em;
 }
 .section_3_cover .section__cover__detail {
+  position: absolute;
+  bottom: 74px;
   padding: 20px;
   width: 234px;
   background: #3bb6aa;
@@ -273,9 +283,9 @@
 .section_4_cover {
   box-sizing: border-box;
   height: 100vh;
+  position: relative;
   background: url("/sites/all/themes/report-2016/images/photos/sdgs.jpg") 0 0 no-repeat;
   background-size: cover;
-  position: relative;
 }
 .section_4_cover .section__scroll {
   position: absolute;
@@ -296,6 +306,9 @@
 .section_4_cover .section__title {
   display: inline-block;
   padding: 20px;
+  margin: 0;
+  position: absolute;
+  top: 107px;
   background: #006ab3;
   color: white;
   font-family: "Proxima N W01 Xbold";
@@ -305,6 +318,8 @@
   width: 360px;
 }
 .section_4_cover .section__cover__detail {
+  position: absolute;
+  bottom: 74px;
   padding: 20px;
   width: 234px;
   background: #006ab3;
@@ -318,9 +333,9 @@
 .section_5_cover {
   box-sizing: border-box;
   height: 100vh;
+  position: relative;
   background: url("/sites/all/themes/report-2016/images/photos/what.jpg") 0 0 no-repeat;
   background-size: cover;
-  position: relative;
 }
 .section_5_cover .section__scroll {
   position: absolute;
@@ -341,6 +356,9 @@
 .section_5_cover .section__title {
   display: inline-block;
   padding: 20px;
+  margin: 0;
+  position: absolute;
+  top: 107px;
   background: #00547c;
   color: white;
   font-family: "Proxima N W01 Xbold";
@@ -349,6 +367,8 @@
   line-height: 0.92982em;
 }
 .section_5_cover .section__cover__detail {
+  position: absolute;
+  bottom: 74px;
   padding: 20px;
   width: 234px;
   background: #00547c;
@@ -362,8 +382,21 @@
 .section_6_cover {
   box-sizing: border-box;
   height: 100vh;
+  position: relative;
   background: url("/sites/all/themes/report-2016/images/photos/exec.jpg") 0 0 no-repeat;
   background-size: cover;
+}
+.section_6_cover .section__scroll {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  background: url(/sites/all/themes/report-2016/images/icons/scroll.svg) center center no-repeat;
+  height: 34px;
+  width: 100%;
+  padding: 20px 0;
+}
+.section_6_cover .section__scroll__text {
+  display: none;
 }
 .section_6_cover .layout__centre {
   margin: 0 auto;
@@ -372,6 +405,9 @@
 .section_6_cover .section__title {
   display: inline-block;
   padding: 20px;
+  margin: 0;
+  position: absolute;
+  top: 107px;
   background: #653f92;
   color: white;
   font-family: "Proxima N W01 Xbold";
@@ -380,6 +416,8 @@
   line-height: 0.92982em;
 }
 .section_6_cover .section__cover__detail {
+  position: absolute;
+  bottom: 74px;
   padding: 20px;
   width: 234px;
   background: #653f92;

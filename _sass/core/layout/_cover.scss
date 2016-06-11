@@ -1,6 +1,7 @@
 @mixin layout__cover() {
   box-sizing: border-box;
   height: 100vh;
+  position: relative;
 }
 
 @mixin layout__cover__image($url) {
@@ -12,6 +13,10 @@
 @mixin section__cover__title($color) {
   display: inline-block;
   padding: 20px;
+  margin: 0;
+
+  position: absolute;
+  top: 87px + 20px;
 
   background: $color;
   color: $white;
@@ -19,6 +24,8 @@
 }
 
 @mixin section__cover__photo__detail($color) {
+  position: absolute;
+  bottom: 34px + 2 * 20px;
   padding: 20px;
   width: 234px;
 
@@ -29,8 +36,6 @@
 }
 
 @mixin section__cover__scroll() {
-  position: relative;
-
   .section__scroll{
     position: absolute;
     bottom: 0;
