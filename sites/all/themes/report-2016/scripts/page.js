@@ -12,6 +12,10 @@
         }
     };
 
+    $(document).on('ready', function() {
+        fixHeader();
+    });
+
     $(document).on('scroll', function() {
         fixHeader();
     })
