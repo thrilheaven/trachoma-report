@@ -225,9 +225,7 @@
 .section_2_cover .section__title {
   display: inline-block;
   padding: 20px;
-  margin: 0;
-  position: absolute;
-  top: 107px;
+  margin: 107px 0 0 0;
   background: #008590;
   color: white;
   font-family: "Proxima N W01 Xbold";
@@ -236,8 +234,6 @@
   line-height: 0.92982em;
 }
 .section_2_cover .section__cover__detail {
-  position: absolute;
-  bottom: 74px;
   padding: 20px;
   width: 234px;
   background: #008590;
@@ -246,6 +242,12 @@
   font-weight: normal;
   font-size: 1rem;
   line-height: 1.25em;
+}
+@media screen and (min-height: 640px) {
+  .section_2_cover .section__cover__detail {
+    position: absolute;
+    bottom: 74px;
+  }
 }
 
 .section_3_cover {
@@ -283,9 +285,7 @@
 .section_3_cover .section__title {
   display: inline-block;
   padding: 20px;
-  margin: 0;
-  position: absolute;
-  top: 107px;
+  margin: 107px 0 0 0;
   background: #3bb6aa;
   color: white;
   font-family: "Proxima N W01 Xbold";
@@ -294,8 +294,6 @@
   line-height: 0.92982em;
 }
 .section_3_cover .section__cover__detail {
-  position: absolute;
-  bottom: 74px;
   padding: 20px;
   width: 234px;
   background: #3bb6aa;
@@ -304,6 +302,12 @@
   font-weight: normal;
   font-size: 1rem;
   line-height: 1.25em;
+}
+@media screen and (min-height: 640px) {
+  .section_3_cover .section__cover__detail {
+    position: absolute;
+    bottom: 74px;
+  }
 }
 
 .section_4_cover {
@@ -341,9 +345,7 @@
 .section_4_cover .section__title {
   display: inline-block;
   padding: 20px;
-  margin: 0;
-  position: absolute;
-  top: 107px;
+  margin: 107px 0 0 0;
   background: #006ab3;
   color: white;
   font-family: "Proxima N W01 Xbold";
@@ -353,8 +355,6 @@
   width: 360px;
 }
 .section_4_cover .section__cover__detail {
-  position: absolute;
-  bottom: 74px;
   padding: 20px;
   width: 234px;
   background: #006ab3;
@@ -363,6 +363,12 @@
   font-weight: normal;
   font-size: 1rem;
   line-height: 1.25em;
+}
+@media screen and (min-height: 640px) {
+  .section_4_cover .section__cover__detail {
+    position: absolute;
+    bottom: 74px;
+  }
 }
 
 .section_5_cover {
@@ -400,9 +406,7 @@
 .section_5_cover .section__title {
   display: inline-block;
   padding: 20px;
-  margin: 0;
-  position: absolute;
-  top: 107px;
+  margin: 107px 0 0 0;
   background: #00547c;
   color: white;
   font-family: "Proxima N W01 Xbold";
@@ -411,8 +415,6 @@
   line-height: 0.92982em;
 }
 .section_5_cover .section__cover__detail {
-  position: absolute;
-  bottom: 74px;
   padding: 20px;
   width: 234px;
   background: #00547c;
@@ -421,6 +423,12 @@
   font-weight: normal;
   font-size: 1rem;
   line-height: 1.25em;
+}
+@media screen and (min-height: 640px) {
+  .section_5_cover .section__cover__detail {
+    position: absolute;
+    bottom: 74px;
+  }
 }
 
 .section_6_cover {
@@ -458,9 +466,7 @@
 .section_6_cover .section__title {
   display: inline-block;
   padding: 20px;
-  margin: 0;
-  position: absolute;
-  top: 107px;
+  margin: 107px 0 0 0;
   background: #653f92;
   color: white;
   font-family: "Proxima N W01 Xbold";
@@ -469,8 +475,6 @@
   line-height: 0.92982em;
 }
 .section_6_cover .section__cover__detail {
-  position: absolute;
-  bottom: 74px;
   padding: 20px;
   width: 234px;
   background: #653f92;
@@ -479,6 +483,12 @@
   font-weight: normal;
   font-size: 1rem;
   line-height: 1.25em;
+}
+@media screen and (min-height: 640px) {
+  .section_6_cover .section__cover__detail {
+    position: absolute;
+    bottom: 74px;
+  }
 }
 
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
