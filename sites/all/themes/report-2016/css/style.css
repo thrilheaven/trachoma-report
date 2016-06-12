@@ -595,6 +595,48 @@
   font-style: normal;
 }
 
+.leaving__person {
+  box-sizing: border-box;
+  width: 100%;
+  height: 567px;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.leaving__person1 {
+  background: url(/sites/all/themes/report-2016/images/photos/leaving_1.jpg) 0 0 no-repeat;
+}
+
+.leaving__person2 {
+  background: url(/sites/all/themes/report-2016/images/photos/leaving_2.jpg) 0 0 no-repeat;
+}
+
+.leaving__detail {
+  background: #006ab3;
+  color: white;
+  font-family: "Proxima N W01 Xbold";
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.21429em;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 300px;
+}
+
+.leaving__quote {
+  background: white;
+  color: #006ab3;
+  font-family: "Proxima N W01 Xbold";
+  font-weight: normal;
+  font-size: 1.875rem;
+  line-height: 1em;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 300px;
+}
+
 .section_5_cover {
   background: url("/sites/all/themes/report-2016/images/photos/what.jpg") 0 0 no-repeat;
   background-size: cover;
