@@ -163,14 +163,13 @@
 }
 
 .js-report__header .report__title {
-  padding: 10px 20px;
+  padding: 14px 20px;
 }
 .js-report__header .report__title__heading {
   font-family: "Proxima N W01 Xbold";
   font-weight: normal;
   font-size: 1.125rem;
   line-height: 1.11111em;
-  padding: 11px 0 8px 0;
 }
 .js-report__header .report__title__heading::after {
   display: none;
