@@ -57,10 +57,10 @@
   padding: 20px 0;
 }
 .section__cover .section__scroll__text {
-  left: 0;
+  top: 0;
   padding: 0.3em;
   position: absolute;
-  top: -9999px;
+  left: -9999px;
 }
 .section__cover .section__scroll__text:focus {
   background: white;
@@ -277,10 +277,10 @@
   padding: 20px 0;
 }
 .section_1_cover .section__scroll__text {
-  left: 0;
+  top: 0;
   padding: 0.3em;
   position: absolute;
-  top: -9999px;
+  left: -9999px;
 }
 .section_1_cover .section__scroll__text:focus {
   background: white;
