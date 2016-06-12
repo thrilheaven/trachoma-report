@@ -1,0 +1,22 @@
+.section__foreword__article {
+  box-sizing: border-box;
+  float: left;
+  width: 960px - 250px - 20px * 2;
+  padding: 20px;
+}
+
+.section__foreword__aside {
+  float: left;
+  width: 250px;
+  padding: 20px;
+}
+
+.section2 {
+  .section__intro {
+    color: $summary;
+  }
+
+  .section__title {
+    color: $summary;
+  }
+}

@@ -1,17 +1,11 @@
 .section_3_cover {
-  @include layout__cover();
   @include layout__cover__image('photos/what.jpg');
-  @include section__cover__scroll();
-
-  .layout__centre {
-    @include layout__center();
-  }
 
   .section__title {
-    @include section__cover__title($needs);
+    background: $needs;
   }
 
   .section__cover__detail {
-    @include section__cover__photo__detail($needs);
+    background: $needs;
   }
 }

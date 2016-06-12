@@ -10,17 +10,16 @@
   background-size: cover;
 }
 
-@mixin section__cover__title($color) {
+@mixin section__cover__title() {
   display: inline-block;
   padding: 20px;
   margin: $scroll-header-height 0 0 0;
 
-  background: $color;
   color: $white;
   @include typography-base('xBd', 57px 53px);
 }
 
-@mixin section__cover__photo__detail($color) {
+@mixin section__cover__photo__detail() {
   @media screen and (min-height: 640px) {
     position: absolute;
     bottom: 34px + 2 * 20px;
@@ -29,7 +28,6 @@
   padding: 20px;
   width: 234px;
 
-  background: $color;
   color: $white;
 
   @include typography-base('xBd', 16px 20px);

@@ -40,6 +40,92 @@
   src: url("/sites/all/themes/report-2016/fonts/9fbce143-f5db-4c0b-9159-b1e666079f67.eot?#iefix") format("eot"), url("/sites/all/themes/report-2016/fonts/eb39afe0-709e-46d6-92ad-db5c3bfd24a9.woff2") format("woff2"), url("/sites/all/themes/report-2016/fonts/19dd5cf2-ac2d-48d5-901a-c432fd291ee2.woff") format("woff"), url("/sites/all/themes/report-2016/fonts/22cfbfa4-f607-4751-92eb-6fa194353e57.ttf") format("truetype"), url("/sites/all/themes/report-2016/fonts/3d6b6348-e05f-4123-b19a-3bfd02c7f361.svg#3d6b6348-e05f-4123-b19a-3bfd02c7f361") format("svg");
 }
 
+.section__cover {
+  box-sizing: border-box;
+  height: 100vh;
+  position: relative;
+  background: url("/sites/all/themes/report-2016/images/photos/exec.jpg") 0 0 no-repeat;
+  background-size: cover;
+}
+.section__cover .section__scroll {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  background: url(/sites/all/themes/report-2016/images/icons/scroll.svg) center center no-repeat;
+  height: 34px;
+  width: 100%;
+  padding: 20px 0;
+}
+.section__cover .section__scroll__text {
+  left: 0;
+  padding: 0.3em;
+  position: absolute;
+  top: -9999px;
+}
+.section__cover .section__scroll__text:focus {
+  background: white;
+  left: 50%;
+  top: 0;
+  z-index: 10;
+}
+.section__cover .layout__centre {
+  margin: 0 auto;
+  width: 960px;
+}
+.section__cover .section__title {
+  display: inline-block;
+  padding: 20px;
+  margin: 107px 0 0 0;
+  color: white;
+  font-family: "Proxima N W01 Xbold";
+  font-weight: normal;
+  font-size: 3.5625rem;
+  line-height: 0.92982em;
+}
+.section__cover .section__cover__detail {
+  padding: 20px;
+  width: 234px;
+  color: white;
+  font-family: "Proxima N W01 Xbold";
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.25em;
+}
+@media screen and (min-height: 640px) {
+  .section__cover .section__cover__detail {
+    position: absolute;
+    bottom: 74px;
+  }
+}
+
+.section__body {
+  margin: 0 auto;
+  width: 960px;
+  font-family: "Proxima N W01 Light";
+  font-size: 1rem;
+  line-height: 1.25em;
+}
+.section__body::before, .section__body::after {
+  content: "";
+  display: table;
+}
+.section__body::after {
+  clear: both;
+}
+.section__body .section__intro {
+  font-family: "Proxima N W01 Light";
+  font-size: 1.25rem;
+  line-height: 1.15em;
+}
+.section__body .section__title {
+  font-family: "Proxima N W01 Xbold";
+  font-weight: normal;
+  font-size: 3.5625rem;
+  line-height: 0.92982em;
+  margin: 0;
+  padding: 107px 0 20px 0;
+}
+
 .download {
   position: fixed;
   bottom: 0;
@@ -325,304 +411,107 @@
 }
 
 .section_2_cover {
-  box-sizing: border-box;
-  height: 100vh;
-  position: relative;
   background: url("/sites/all/themes/report-2016/images/photos/exec.jpg") 0 0 no-repeat;
   background-size: cover;
 }
-.section_2_cover .section__scroll {
-  position: absolute;
-  bottom: 0;
-  display: block;
-  background: url(/sites/all/themes/report-2016/images/icons/scroll.svg) center center no-repeat;
-  height: 34px;
-  width: 100%;
-  padding: 20px 0;
-}
-.section_2_cover .section__scroll__text {
-  left: 0;
-  padding: 0.3em;
-  position: absolute;
-  top: -9999px;
-}
-.section_2_cover .section__scroll__text:focus {
-  background: white;
-  left: 50%;
-  top: 0;
-  z-index: 10;
-}
-.section_2_cover .layout__centre {
-  margin: 0 auto;
-  width: 960px;
-}
 .section_2_cover .section__title {
-  display: inline-block;
-  padding: 20px;
-  margin: 107px 0 0 0;
   background: #008590;
-  color: white;
-  font-family: "Proxima N W01 Xbold";
-  font-weight: normal;
-  font-size: 3.5625rem;
-  line-height: 0.92982em;
 }
 .section_2_cover .section__cover__detail {
-  padding: 20px;
-  width: 234px;
   background: #008590;
-  color: white;
-  font-family: "Proxima N W01 Xbold";
-  font-weight: normal;
-  font-size: 1rem;
-  line-height: 1.25em;
 }
-@media screen and (min-height: 640px) {
-  .section_2_cover .section__cover__detail {
-    position: absolute;
-    bottom: 74px;
-  }
+
+.section__foreword__article {
+  box-sizing: border-box;
+  float: left;
+  width: 670px;
+  padding: 20px;
+}
+
+.section__foreword__aside {
+  float: left;
+  width: 250px;
+  padding: 20px;
+}
+
+.section2 .section__intro {
+  color: #008590;
+}
+.section2 .section__title {
+  color: #008590;
 }
 
 .section_3_cover {
-  box-sizing: border-box;
-  height: 100vh;
-  position: relative;
   background: url("/sites/all/themes/report-2016/images/photos/what.jpg") 0 0 no-repeat;
   background-size: cover;
 }
-.section_3_cover .section__scroll {
-  position: absolute;
-  bottom: 0;
-  display: block;
-  background: url(/sites/all/themes/report-2016/images/icons/scroll.svg) center center no-repeat;
-  height: 34px;
-  width: 100%;
-  padding: 20px 0;
-}
-.section_3_cover .section__scroll__text {
-  left: 0;
-  padding: 0.3em;
-  position: absolute;
-  top: -9999px;
-}
-.section_3_cover .section__scroll__text:focus {
-  background: white;
-  left: 50%;
-  top: 0;
-  z-index: 10;
-}
-.section_3_cover .layout__centre {
-  margin: 0 auto;
-  width: 960px;
-}
 .section_3_cover .section__title {
-  display: inline-block;
-  padding: 20px;
-  margin: 107px 0 0 0;
   background: #3bb6aa;
-  color: white;
-  font-family: "Proxima N W01 Xbold";
-  font-weight: normal;
-  font-size: 3.5625rem;
-  line-height: 0.92982em;
 }
 .section_3_cover .section__cover__detail {
-  padding: 20px;
-  width: 234px;
   background: #3bb6aa;
-  color: white;
-  font-family: "Proxima N W01 Xbold";
-  font-weight: normal;
-  font-size: 1rem;
-  line-height: 1.25em;
 }
-@media screen and (min-height: 640px) {
-  .section_3_cover .section__cover__detail {
-    position: absolute;
-    bottom: 74px;
-  }
+
+.section3 .section__intro {
+  color: #3bb6aa;
+}
+.section3 .section__title {
+  color: #3bb6aa;
 }
 
 .section_4_cover {
-  box-sizing: border-box;
-  height: 100vh;
-  position: relative;
   background: url("/sites/all/themes/report-2016/images/photos/sdgs.jpg") 0 0 no-repeat;
   background-size: cover;
 }
-.section_4_cover .section__scroll {
-  position: absolute;
-  bottom: 0;
-  display: block;
-  background: url(/sites/all/themes/report-2016/images/icons/scroll.svg) center center no-repeat;
-  height: 34px;
-  width: 100%;
-  padding: 20px 0;
-}
-.section_4_cover .section__scroll__text {
-  left: 0;
-  padding: 0.3em;
-  position: absolute;
-  top: -9999px;
-}
-.section_4_cover .section__scroll__text:focus {
-  background: white;
-  left: 50%;
-  top: 0;
-  z-index: 10;
-}
-.section_4_cover .layout__centre {
-  margin: 0 auto;
-  width: 960px;
-}
 .section_4_cover .section__title {
-  display: inline-block;
-  padding: 20px;
-  margin: 107px 0 0 0;
   background: #006ab3;
-  color: white;
-  font-family: "Proxima N W01 Xbold";
-  font-weight: normal;
-  font-size: 3.5625rem;
-  line-height: 0.92982em;
   width: 360px;
 }
 .section_4_cover .section__cover__detail {
-  padding: 20px;
-  width: 234px;
   background: #006ab3;
-  color: white;
-  font-family: "Proxima N W01 Xbold";
-  font-weight: normal;
-  font-size: 1rem;
-  line-height: 1.25em;
 }
-@media screen and (min-height: 640px) {
-  .section_4_cover .section__cover__detail {
-    position: absolute;
-    bottom: 74px;
-  }
+
+.section4 .section__intro {
+  color: #006ab3;
+}
+.section4 .section__title {
+  color: #006ab3;
 }
 
 .section_5_cover {
-  box-sizing: border-box;
-  height: 100vh;
-  position: relative;
   background: url("/sites/all/themes/report-2016/images/photos/what.jpg") 0 0 no-repeat;
   background-size: cover;
 }
-.section_5_cover .section__scroll {
-  position: absolute;
-  bottom: 0;
-  display: block;
-  background: url(/sites/all/themes/report-2016/images/icons/scroll.svg) center center no-repeat;
-  height: 34px;
-  width: 100%;
-  padding: 20px 0;
-}
-.section_5_cover .section__scroll__text {
-  left: 0;
-  padding: 0.3em;
-  position: absolute;
-  top: -9999px;
-}
-.section_5_cover .section__scroll__text:focus {
-  background: white;
-  left: 50%;
-  top: 0;
-  z-index: 10;
-}
-.section_5_cover .layout__centre {
-  margin: 0 auto;
-  width: 960px;
-}
 .section_5_cover .section__title {
-  display: inline-block;
-  padding: 20px;
-  margin: 107px 0 0 0;
   background: #00547c;
-  color: white;
-  font-family: "Proxima N W01 Xbold";
-  font-weight: normal;
-  font-size: 3.5625rem;
-  line-height: 0.92982em;
 }
 .section_5_cover .section__cover__detail {
-  padding: 20px;
-  width: 234px;
   background: #00547c;
-  color: white;
-  font-family: "Proxima N W01 Xbold";
-  font-weight: normal;
-  font-size: 1rem;
-  line-height: 1.25em;
 }
-@media screen and (min-height: 640px) {
-  .section_5_cover .section__cover__detail {
-    position: absolute;
-    bottom: 74px;
-  }
+
+.section5 .section__intro {
+  color: #00547c;
+}
+.section5 .section__title {
+  color: #00547c;
 }
 
 .section_6_cover {
-  box-sizing: border-box;
-  height: 100vh;
-  position: relative;
   background: url("/sites/all/themes/report-2016/images/photos/exec.jpg") 0 0 no-repeat;
   background-size: cover;
 }
-.section_6_cover .section__scroll {
-  position: absolute;
-  bottom: 0;
-  display: block;
-  background: url(/sites/all/themes/report-2016/images/icons/scroll.svg) center center no-repeat;
-  height: 34px;
-  width: 100%;
-  padding: 20px 0;
-}
-.section_6_cover .section__scroll__text {
-  left: 0;
-  padding: 0.3em;
-  position: absolute;
-  top: -9999px;
-}
-.section_6_cover .section__scroll__text:focus {
-  background: white;
-  left: 50%;
-  top: 0;
-  z-index: 10;
-}
-.section_6_cover .layout__centre {
-  margin: 0 auto;
-  width: 960px;
-}
 .section_6_cover .section__title {
-  display: inline-block;
-  padding: 20px;
-  margin: 107px 0 0 0;
   background: #653f92;
-  color: white;
-  font-family: "Proxima N W01 Xbold";
-  font-weight: normal;
-  font-size: 3.5625rem;
-  line-height: 0.92982em;
 }
 .section_6_cover .section__cover__detail {
-  padding: 20px;
-  width: 234px;
   background: #653f92;
-  color: white;
-  font-family: "Proxima N W01 Xbold";
-  font-weight: normal;
-  font-size: 1rem;
-  line-height: 1.25em;
 }
-@media screen and (min-height: 640px) {
-  .section_6_cover .section__cover__detail {
-    position: absolute;
-    bottom: 74px;
-  }
+
+.section6 .section__intro {
+  color: #653f92;
+}
+.section6 .section__title {
+  color: #653f92;
 }
 
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */

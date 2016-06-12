@@ -1,0 +1,15 @@
+.section__body {
+  @include layout__center();
+  @include layout__clearfix();
+  @include typography__section__body();
+
+  .section__intro {
+    @include typography__section__intro();
+  }
+
+  .section__title {
+    @include typography__section__title();
+    margin: 0;
+    padding: $scroll-header-height 0 20px 0;
+  }
+}
