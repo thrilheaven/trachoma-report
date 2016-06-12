@@ -126,6 +126,25 @@
   padding: 107px 0 20px 0;
 }
 
+.section_body::before, .section_body::after {
+  content: "";
+  display: table;
+}
+.section_body::after {
+  clear: both;
+}
+
+.section__article {
+  float: left;
+  width: 690px;
+}
+
+.section__aside {
+  float: left;
+  margin-left: 20px;
+  width: 250px;
+}
+
 .download {
   position: fixed;
   bottom: 0;

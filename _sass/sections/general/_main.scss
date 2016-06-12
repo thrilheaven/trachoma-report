@@ -13,3 +13,18 @@
     padding: $scroll-header-height 0 20px 0;
   }
 }
+
+.section_body {
+  @include layout__clearfix();
+}
+
+.section__article {
+  float: left;
+  width: 960px - 250px - 20px;
+}
+
+.section__aside {
+  float: left;
+  margin-left: 20px;
+  width: 250px;
+}
