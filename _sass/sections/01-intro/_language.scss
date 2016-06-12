@@ -1,0 +1,47 @@
+.language {
+  position: fixed;
+  bottom: 22px + 2px;
+  right: 0;
+  z-index: 200;
+}
+
+.language__list {
+  margin: 0;
+  padding: 0;
+
+  li {
+    list-style-type: none;
+  }
+}
+
+.language__item {
+  display: none;
+
+  background-color: $charcoal-opacity;
+  color: $white;
+  text-decoration: none;
+
+  width: 100px;
+  padding: 5px 10px;
+  @include typography_base('xBd', 12px 12px);
+}
+
+.language__item__selected {
+  display: block;
+
+  &::after {
+    position: absolute;
+    content: '';
+    background: url(/sites/all/themes/report-2016/images/icons/white-down.svg) 0 0 no-repeat;
+    background-size: cover;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px;
+    width: 15px;
+    height: 13px;
+  }
+}
+
+.language__title {
+  display: none;
+}

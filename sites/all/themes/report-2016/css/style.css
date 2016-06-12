@@ -40,6 +40,88 @@
   src: url("/sites/all/themes/report-2016/fonts/9fbce143-f5db-4c0b-9159-b1e666079f67.eot?#iefix") format("eot"), url("/sites/all/themes/report-2016/fonts/eb39afe0-709e-46d6-92ad-db5c3bfd24a9.woff2") format("woff2"), url("/sites/all/themes/report-2016/fonts/19dd5cf2-ac2d-48d5-901a-c432fd291ee2.woff") format("woff"), url("/sites/all/themes/report-2016/fonts/22cfbfa4-f607-4751-92eb-6fa194353e57.ttf") format("truetype"), url("/sites/all/themes/report-2016/fonts/3d6b6348-e05f-4123-b19a-3bfd02c7f361.svg#3d6b6348-e05f-4123-b19a-3bfd02c7f361") format("svg");
 }
 
+.download {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 200;
+}
+
+.download__list {
+  display: none;
+}
+
+.download__title {
+  position: relative;
+  background-color: rgba(40, 41, 40, 0.9);
+  color: white;
+  width: 100px;
+  padding: 5px 10px;
+  font-family: "Proxima N W01 Xbold";
+  font-weight: normal;
+  font-size: 0.75rem;
+  line-height: 1em;
+  cursor: pointer;
+}
+.download__title::after {
+  position: absolute;
+  content: '';
+  background: url(/sites/all/themes/report-2016/images/icons/white-down.svg) 0 0 no-repeat;
+  background-size: cover;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5px;
+  width: 15px;
+  height: 13px;
+}
+
+.language {
+  position: fixed;
+  bottom: 24px;
+  right: 0;
+  z-index: 200;
+}
+
+.language__list {
+  margin: 0;
+  padding: 0;
+}
+.language__list li {
+  list-style-type: none;
+}
+
+.language__item {
+  display: none;
+  background-color: rgba(40, 41, 40, 0.9);
+  color: white;
+  text-decoration: none;
+  width: 100px;
+  padding: 5px 10px;
+  font-family: "Proxima N W01 Xbold";
+  font-weight: normal;
+  font-size: 0.75rem;
+  line-height: 1em;
+}
+
+.language__item__selected {
+  display: block;
+}
+.language__item__selected::after {
+  position: absolute;
+  content: '';
+  background: url(/sites/all/themes/report-2016/images/icons/white-down.svg) 0 0 no-repeat;
+  background-size: cover;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5px;
+  width: 15px;
+  height: 13px;
+}
+
+.language__title {
+  display: none;
+}
+
 .section_1_cover {
   box-sizing: border-box;
   height: 100vh;
