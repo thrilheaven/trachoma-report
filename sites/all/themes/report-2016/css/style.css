@@ -101,7 +101,7 @@
 .section__body {
   margin: 0 auto;
   width: 960px;
-  font-family: "Proxima N W01 Light";
+  font-family: "Proxima Nova W08 Reg";
   font-size: 1rem;
   line-height: 1.25em;
 }
@@ -112,10 +112,25 @@
 .section__body::after {
   clear: both;
 }
+.section__body em {
+  font-family: "Proxima N W01 Reg It";
+  font-style: normal;
+}
+.section__body strong {
+  font-family: "Proxima N W01 Bold";
+  font-weight: normal;
+}
 .section__body .section__intro {
-  font-family: "Proxima N W01 Light";
+  font-family: "Proxima Nova W08 Reg";
   font-size: 1.25rem;
   line-height: 1.15em;
+}
+.section__body .section__subtitle {
+  font-family: "Proxima N W01 Xbold";
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 1.15em;
+  margin: 0;
 }
 .section__body .section__title {
   font-family: "Proxima N W01 Xbold";
@@ -446,6 +461,15 @@
 .section2 .section__title {
   color: #008590;
 }
+.section2 .section__subtitle {
+  color: #008590;
+}
+.section2 em {
+  color: #008590;
+}
+.section2 strong {
+  color: #008590;
+}
 
 .section_3_cover {
   background: url("/sites/all/themes/report-2016/images/photos/what.jpg") 0 0 no-repeat;
@@ -462,6 +486,15 @@
   color: #3bb6aa;
 }
 .section3 .section__title {
+  color: #3bb6aa;
+}
+.section3 .section__subtitle {
+  color: #3bb6aa;
+}
+.section3 em {
+  color: #3bb6aa;
+}
+.section3 strong {
   color: #3bb6aa;
 }
 
@@ -483,6 +516,63 @@
 .section4 .section__title {
   color: #006ab3;
 }
+.section4 .section__subtitle {
+  color: #006ab3;
+}
+.section4 em {
+  color: #006ab3;
+}
+.section4 strong {
+  color: #006ab3;
+}
+
+.goal__list {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.goal__item {
+  list-style-type: none;
+  padding-left: 234px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.goal__item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 234px;
+  height: 100px;
+}
+
+.goal__item__education::before {
+  background: url(/sites/all/themes/report-2016/images/icons/sdg_4.svg) 0 0 no-repeat;
+}
+
+.goal__item__health::before {
+  background: url(/sites/all/themes/report-2016/images/icons/sdg_3.svg) 0 0 no-repeat;
+}
+
+.goal__item__hunger::before {
+  background: url(/sites/all/themes/report-2016/images/icons/sdg_2.svg) 0 0 no-repeat;
+}
+
+.goal__item__poverty::before {
+  background: url(/sites/all/themes/report-2016/images/icons/sdg_1.svg) 0 0 no-repeat;
+}
+
+.goal__quote {
+  font-family: "Proxima N W01 Xbold";
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 1.15em;
+  margin: 0;
+}
+
+.goal__cite {
+  font-style: normal;
+}
 
 .section_5_cover {
   background: url("/sites/all/themes/report-2016/images/photos/what.jpg") 0 0 no-repeat;
@@ -501,6 +591,15 @@
 .section5 .section__title {
   color: #00547c;
 }
+.section5 .section__subtitle {
+  color: #00547c;
+}
+.section5 em {
+  color: #00547c;
+}
+.section5 strong {
+  color: #00547c;
+}
 
 .section_6_cover {
   background: url("/sites/all/themes/report-2016/images/photos/exec.jpg") 0 0 no-repeat;
@@ -517,6 +616,15 @@
   color: #653f92;
 }
 .section6 .section__title {
+  color: #653f92;
+}
+.section6 .section__subtitle {
+  color: #653f92;
+}
+.section6 em {
+  color: #653f92;
+}
+.section6 strong {
   color: #653f92;
 }
 
@@ -924,6 +1032,11 @@ textarea {
   /* 1 */
   font: inherit;
   /* 2 */
+}
+
+blockquote {
+  margin: 0;
+  padding: 0;
 }
 
 p {

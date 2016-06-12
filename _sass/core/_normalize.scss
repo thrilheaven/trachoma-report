@@ -424,6 +424,11 @@
 @mixin normalize() {
   @include normalize__default();
 
+  blockquote {
+    margin: 0;
+    padding: 0;
+  }
+
   p {
     margin: 0 0 20px 0;
   }

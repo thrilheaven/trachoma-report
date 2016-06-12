@@ -6,4 +6,70 @@
   .section__title {
     color: $sdgs;
   }
+
+  .section__subtitle {
+    color: $sdgs;
+  }
+
+  em {
+    color: $sdgs;
+  }
+
+  strong {
+    color: $sdgs;
+  }
+}
+
+.goal__list {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.goal__item {
+  list-style-type: none;
+  padding-left: 234px;
+  margin-bottom: 2 * 20px;
+  position: relative;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 234px;
+    height: 100px;
+  }
+}
+
+.goal__item__education {
+  &::before {
+    background: url(/sites/all/themes/report-2016/images/icons/sdg_4.svg) 0 0 no-repeat;
+  }
+}
+
+.goal__item__health {
+  &::before {
+    background: url(/sites/all/themes/report-2016/images/icons/sdg_3.svg) 0 0 no-repeat;
+  }
+}
+
+.goal__item__hunger {
+  &::before {
+    background: url(/sites/all/themes/report-2016/images/icons/sdg_2.svg) 0 0 no-repeat;
+  }
+}
+
+.goal__item__poverty {
+  &::before {
+    background: url(/sites/all/themes/report-2016/images/icons/sdg_1.svg) 0 0 no-repeat;
+  }
+}
+
+.goal__quote {
+  @include typography-base('xBd', 20px 23px);
+  margin: 0;
+}
+
+.goal__cite {
+  font-style: normal;
 }
