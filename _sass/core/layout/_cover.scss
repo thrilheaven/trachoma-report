@@ -13,7 +13,7 @@
 @mixin section__cover__title($color) {
   display: inline-block;
   padding: 20px;
-  margin: (87px + 20px) 0 0 0;
+  margin: $scroll-header-height 0 0 0;
 
   background: $color;
   color: $white;

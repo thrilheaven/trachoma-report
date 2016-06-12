@@ -1,4 +1,4 @@
-@mixin normalize() {
+@mixin normalize__default() {
   /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 
 
@@ -418,5 +418,13 @@
   ::-webkit-file-upload-button {
     -webkit-appearance: button; /* 1 */
     font: inherit; /* 2 */
+  }
+}
+
+@mixin normalize() {
+  @include normalize__default();
+
+  p {
+    margin: 0 0 20px 0;
   }
 }
