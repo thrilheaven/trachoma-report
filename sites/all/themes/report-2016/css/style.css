@@ -57,7 +57,16 @@
   padding: 20px 0;
 }
 .section_1_cover .section__scroll__text {
-  display: none;
+  left: 0;
+  padding: 0.3em;
+  position: absolute;
+  top: -9999px;
+}
+.section_1_cover .section__scroll__text:focus {
+  background: white;
+  left: 50%;
+  top: 0;
+  z-index: 10;
 }
 
 .report__header {
@@ -198,7 +207,16 @@
   padding: 20px 0;
 }
 .section_2_cover .section__scroll__text {
-  display: none;
+  left: 0;
+  padding: 0.3em;
+  position: absolute;
+  top: -9999px;
+}
+.section_2_cover .section__scroll__text:focus {
+  background: white;
+  left: 50%;
+  top: 0;
+  z-index: 10;
 }
 .section_2_cover .layout__centre {
   margin: 0 auto;
@@ -247,7 +265,16 @@
   padding: 20px 0;
 }
 .section_3_cover .section__scroll__text {
-  display: none;
+  left: 0;
+  padding: 0.3em;
+  position: absolute;
+  top: -9999px;
+}
+.section_3_cover .section__scroll__text:focus {
+  background: white;
+  left: 50%;
+  top: 0;
+  z-index: 10;
 }
 .section_3_cover .layout__centre {
   margin: 0 auto;
@@ -296,7 +323,16 @@
   padding: 20px 0;
 }
 .section_4_cover .section__scroll__text {
-  display: none;
+  left: 0;
+  padding: 0.3em;
+  position: absolute;
+  top: -9999px;
+}
+.section_4_cover .section__scroll__text:focus {
+  background: white;
+  left: 50%;
+  top: 0;
+  z-index: 10;
 }
 .section_4_cover .layout__centre {
   margin: 0 auto;
@@ -346,7 +382,16 @@
   padding: 20px 0;
 }
 .section_5_cover .section__scroll__text {
-  display: none;
+  left: 0;
+  padding: 0.3em;
+  position: absolute;
+  top: -9999px;
+}
+.section_5_cover .section__scroll__text:focus {
+  background: white;
+  left: 50%;
+  top: 0;
+  z-index: 10;
 }
 .section_5_cover .layout__centre {
   margin: 0 auto;
@@ -395,7 +440,16 @@
   padding: 20px 0;
 }
 .section_6_cover .section__scroll__text {
-  display: none;
+  left: 0;
+  padding: 0.3em;
+  position: absolute;
+  top: -9999px;
+}
+.section_6_cover .section__scroll__text:focus {
+  background: white;
+  left: 50%;
+  top: 0;
+  z-index: 10;
 }
 .section_6_cover .layout__centre {
   margin: 0 auto;

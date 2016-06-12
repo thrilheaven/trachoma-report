@@ -48,6 +48,6 @@
   }
 
   .section__scroll__text {
-    display: none;
+    @include hide_in_dom();
   }
 }
