@@ -33,17 +33,17 @@
   }
 }
 
-.section_body {
-  @include layout__clearfix();
+.section__wrapper {
+  position: relative;
 }
 
 .section__article {
-  float: left;
   width: 960px - 250px - 20px;
 }
 
 .section__aside {
-  float: left;
-  margin-left: 20px;
-  width: 250px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 220px;
 }

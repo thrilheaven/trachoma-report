@@ -146,23 +146,19 @@
   line-height: 1.33333em;
 }
 
-.section_body::before, .section_body::after {
-  content: "";
-  display: table;
-}
-.section_body::after {
-  clear: both;
+.section__wrapper {
+  position: relative;
 }
 
 .section__article {
-  float: left;
   width: 690px;
 }
 
 .section__aside {
-  float: left;
-  margin-left: 20px;
-  width: 250px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 220px;
 }
 
 .download {
@@ -209,25 +205,18 @@
   margin: 0 auto;
   width: 960px;
 }
-.section__foreword__wrapper::before, .section__foreword__wrapper::after {
-  content: "";
-  display: table;
-}
-.section__foreword__wrapper::after {
-  clear: both;
-}
 
 .section__foreword__article {
   box-sizing: border-box;
-  float: left;
   width: 650px;
   padding: 30px;
 }
 
 .section__foreword__aside {
-  float: left;
+  position: absolute;
+  top: 30px;
+  right: 30px;
   width: 250px;
-  padding: 30px;
 }
 
 .section__foreword {

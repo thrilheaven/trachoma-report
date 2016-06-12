@@ -5,20 +5,19 @@
 .section__foreword__wrapper {
   background-color: $white;
   @include layout__center();
-  @include layout__clearfix();
 }
 
 .section__foreword__article {
   box-sizing: border-box;
-  float: left;
   width: 960px - 250px - 30px * 2;
   padding: 30px;
 }
 
 .section__foreword__aside {
-  float: left;
+  position: absolute;
+  top: 30px;
+  right: 30px;
   width: 250px;
-  padding: 30px;
 }
 
 .section__foreword {
