@@ -1,14 +1,14 @@
 .section__body {
   @include layout__center();
   @include layout__clearfix();
-  @include typography__section__body();
+  @include typography-base('Lt', 16px 20px);
 
   .section__intro {
-    @include typography__section__intro();
+    @include typography-base('Lt', 20px 23px);
   }
 
   .section__title {
-    @include typography__section__title();
+    @include typography-base('xBd', 30px 35px);
     margin: 0;
     padding: $scroll-header-height 0 20px 0;
   }

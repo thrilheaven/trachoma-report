@@ -120,8 +120,8 @@
 .section__body .section__title {
   font-family: "Proxima N W01 Xbold";
   font-weight: normal;
-  font-size: 3.5625rem;
-  line-height: 0.92982em;
+  font-size: 1.875rem;
+  line-height: 1.16667em;
   margin: 0;
   padding: 107px 0 20px 0;
 }
@@ -181,14 +181,14 @@
 .section__foreword__article {
   box-sizing: border-box;
   float: left;
-  width: 670px;
-  padding: 20px;
+  width: 650px;
+  padding: 30px;
 }
 
 .section__foreword__aside {
   float: left;
   width: 250px;
-  padding: 20px;
+  padding: 30px;
 }
 
 .section__foreword {
@@ -419,19 +419,6 @@
 }
 .section_2_cover .section__cover__detail {
   background: #008590;
-}
-
-.section__foreword__article {
-  box-sizing: border-box;
-  float: left;
-  width: 670px;
-  padding: 20px;
-}
-
-.section__foreword__aside {
-  float: left;
-  width: 250px;
-  padding: 20px;
 }
 
 .section2 .section__intro {

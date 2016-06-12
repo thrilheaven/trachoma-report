@@ -11,28 +11,28 @@
 .section__foreword__article {
   box-sizing: border-box;
   float: left;
-  width: 960px - 250px - 20px * 2;
-  padding: 20px;
+  width: 960px - 250px - 30px * 2;
+  padding: 30px;
 }
 
 .section__foreword__aside {
   float: left;
   width: 250px;
-  padding: 20px;
+  padding: 30px;
 }
 
 .section__foreword {
-  @include typography__section__body();
+  @include typography-base('Lt', 16px 20px);
 
   .section__intro {
     color: $sea;
-    @include typography__section__intro();
+    @include typography-base('Lt', 20px 23px);
   }
 
   .section__title {
     color: $sea;
     background-color: $putty;
-    @include typography__section__title();
+    @include typography-base('xBd', 57px 53px);
     margin: 0;
     padding: $scroll-header-height 0 10px 0;
   }
