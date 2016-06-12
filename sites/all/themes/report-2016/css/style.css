@@ -465,6 +465,33 @@
   color: #008590;
 }
 
+.section__subtitle__economic {
+  padding-top: 80px;
+  background: url(/sites/all/themes/report-2016/images/icons/dollar_icon.svg) 0 0 no-repeat;
+}
+
+.section__aside__economic {
+  top: 80px;
+}
+
+.section__subtitle__knowledge {
+  padding-top: 97px;
+  background: url(/sites/all/themes/report-2016/images/icons/knowledge_scale_icon.svg) 0 0 no-repeat;
+}
+
+.section__aside__knowledge {
+  top: 97px;
+}
+
+.section__subtitle__political {
+  padding-top: 87px;
+  background: url(/sites/all/themes/report-2016/images/icons/political_will_icon.svg) 0 0 no-repeat;
+}
+
+.section__aside__political {
+  top: 87px;
+}
+
 .section_3_cover {
   background: url("/sites/all/themes/report-2016/images/photos/what.jpg") 0 0 no-repeat;
   background-size: cover;
