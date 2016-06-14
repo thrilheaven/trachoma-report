@@ -529,7 +529,7 @@
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 190px 0 0 190px;
+  border-width: 190px 0 0 170px;
   border-color: #009ee3 transparent transparent #e1e1e1;
 }
 
@@ -558,7 +558,7 @@
   line-height: 1em;
   color: #006ab3;
   position: absolute;
-  right: 90px;
+  right: 75px;
   top: 160px;
 }
 
