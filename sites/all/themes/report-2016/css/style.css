@@ -616,6 +616,9 @@
 .section4 strong {
   color: #006ab3;
 }
+.section4 .section__aside {
+  top: 107px;
+}
 
 .goal__list {
   margin-left: 0;
