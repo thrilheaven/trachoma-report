@@ -1,0 +1,69 @@
+.section__case_study {
+  background-color: $sea;
+  padding: 30px 0;
+
+  .section__intro {
+    color: $royal;
+    @include typography-base('Rg', 20px 23px);
+  }
+
+  .section__title {
+    @include typography-base('xBd', 30px 35px);
+    color: $royal;
+  }
+
+  .section__subtitle {
+    @include typography-base('xBd', 20px 23px);
+    color: $royal;
+  }
+
+  .section__title__highlight {
+    display: block;
+    color: $sea;
+  }
+}
+
+.section__case_study__wrapper {
+  background: $white;
+  @include layout__center();
+  position: relative;
+
+  &::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 190px 0 0 190px;
+    border-color: $sea transparent transparent $putty;
+  }
+}
+
+.section__case_study__article {
+  box-sizing: border-box;
+  width: 960px - 250px - 30px * 2;
+  padding: 30px;
+}
+
+.section__case_study__aside {
+  position: absolute;
+  top: 190px + 40px;
+  right: 30px;
+  width: 250px;
+}
+
+.case_study__image {
+  float: left;
+  margin: 5px 10px 10px 0;
+}
+
+.case_study__section {
+  @include typography-base('xBd', 18px 18px);
+  color: $royal;
+
+  position: absolute;
+  right: 90px;
+  top: 160px;
+}

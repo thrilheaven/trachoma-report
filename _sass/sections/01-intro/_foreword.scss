@@ -21,11 +21,11 @@
 }
 
 .section__foreword {
-  @include typography-base('Lt', 16px 20px);
+  @include typography-base('Rg', 16px 20px);
 
   .section__intro {
     color: $sea;
-    @include typography-base('Lt', 20px 23px);
+    @include typography-base('Rg', 20px 23px);
   }
 
   .section__title {
