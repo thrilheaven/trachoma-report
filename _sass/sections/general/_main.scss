@@ -20,6 +20,7 @@
   .section__subtitle {
     @include typography-base('xBd', 20px 23px);
     margin: 0;
+    width: 530px;
   }
 
   .section__title {
