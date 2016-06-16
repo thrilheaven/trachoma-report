@@ -2,10 +2,10 @@
   @include layout__cover__image('photos/exec.jpg');
 
   .section__title {
-    background: $summary;
+    background: $emerald-opacity;
   }
 
   .section__cover__detail {
-    background: $summary;
+    background: $emerald-opacity;
   }
 }

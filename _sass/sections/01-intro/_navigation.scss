@@ -6,10 +6,11 @@
 .main-navigation__item {
   float: left;
   width: 16.66666%;
-  @include typography-base('xBd', 12px 12px);
+  @include typography-base('Bd', 12px 12px);
   padding: (28px - 12px)/2 0;
   text-align: center;
   text-decoration: none;
+  letter-spacing: 0.2px;
 }
 
 .main-navigation__item__home {

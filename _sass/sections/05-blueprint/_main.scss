@@ -18,4 +18,23 @@
   strong {
     color: $blueprint;
   }
+  table {
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+td {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  text-align: left;
+  vertical-align: top;
+}
+th {
+  color: white;
+  background-color: $blueprint;
+  border: 1px solid $blueprint;
+  padding: 0.5rem;
+  text-align: left;
+  vertical-align: top;
+}
 }

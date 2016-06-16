@@ -76,10 +76,11 @@
   line-height: 0.92982em;
 }
 .section__cover .section__cover__detail {
-  padding: 20px;
+  padding: 15px;
   width: 234px;
   color: white;
-  font-family: "Proxima N W01 Xbold";
+  letter-spacing: 0.2px;
+  font-family: "Proxima N W01 Bold";
   font-weight: normal;
   font-size: 1rem;
   line-height: 1.25em;
@@ -155,6 +156,15 @@
   width: 220px;
 }
 
+.section__quote {
+  font-family: "Proxima N W01 Xbold";
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 1.15em;
+  margin: 0;
+  width: 220px;
+}
+
 .download {
   position: fixed;
   bottom: 0;
@@ -171,7 +181,7 @@
   background-color: rgba(40, 41, 40, 0.9);
   color: white;
   width: 100px;
-  padding: 5px 10px;
+  padding: 10px 10px;
   font-family: "Proxima N W01 Xbold";
   font-weight: normal;
   font-size: 0.75rem;
@@ -237,7 +247,7 @@
 
 .language {
   position: fixed;
-  bottom: 24px;
+  bottom: 34px;
   right: 0;
   z-index: 200;
 }
@@ -256,7 +266,7 @@
   color: white;
   text-decoration: none;
   width: 100px;
-  padding: 5px 10px;
+  padding: 10px 10px;
   font-family: "Proxima N W01 Xbold";
   font-weight: normal;
   font-size: 0.75rem;
@@ -344,13 +354,14 @@
 .main-navigation__item {
   float: left;
   width: 16.66666%;
-  font-family: "Proxima N W01 Xbold";
+  font-family: "Proxima N W01 Bold";
   font-weight: normal;
   font-size: 0.75rem;
   line-height: 1em;
   padding: 8px 0;
   text-align: center;
   text-decoration: none;
+  letter-spacing: 0.2px;
 }
 
 .main-navigation__item__home {
@@ -437,10 +448,10 @@
   background-size: cover;
 }
 .section_2_cover .section__title {
-  background: #008590;
+  background: rgba(0, 133, 144, 0.9);
 }
 .section_2_cover .section__cover__detail {
-  background: #008590;
+  background: rgba(0, 133, 144, 0.9);
 }
 
 .section2 .section__intro {
@@ -484,6 +495,33 @@
 
 .section__aside__political {
   top: 87px;
+}
+
+.section__subtitle__partnerships {
+  padding-top: 70px;
+  background: url(/sites/all/themes/report-2016/images/icons/partner_icon.svg) 0 0 no-repeat;
+}
+
+.section__aside__partnerships {
+  top: 70px;
+}
+
+.section__subtitle__leadership {
+  padding-top: 70px;
+  background: url(/sites/all/themes/report-2016/images/icons/leader_icon.svg) 0 0 no-repeat;
+}
+
+.section__aside__leadership {
+  top: 70px;
+}
+
+.section__subtitle__vision {
+  padding-top: 70px;
+  background: url(/sites/all/themes/report-2016/images/icons/vision_icon.svg) 0 0 no-repeat;
+}
+
+.section__aside__vision {
+  top: 70px;
 }
 
 .section__case_study {
@@ -566,10 +604,10 @@
   background-size: cover;
 }
 .section_3_cover .section__title {
-  background: #3bb6aa;
+  background: rgba(59, 182, 170, 0.9);
 }
 .section_3_cover .section__cover__detail {
-  background: #3bb6aa;
+  background: rgba(59, 182, 170, 0.9);
 }
 
 .section3 .section__intro {
@@ -593,11 +631,11 @@
   background-size: cover;
 }
 .section_4_cover .section__title {
-  background: #006ab3;
+  background: rgba(0, 106, 179, 0.9);
   width: 360px;
 }
 .section_4_cover .section__cover__detail {
-  background: #006ab3;
+  background: rgba(0, 106, 179, 0.9);
 }
 
 .section4 .section__intro {
@@ -636,7 +674,27 @@
   top: 0;
   left: 0;
   width: 234px;
-  height: 100px;
+  height: 120px;
+}
+
+.goal__item__partnerships::before {
+  background: url(/sites/all/themes/report-2016/images/icons/sdg_17.svg) 0 0 no-repeat;
+}
+
+.goal__item__inequalities::before {
+  background: url(/sites/all/themes/report-2016/images/icons/sdg_10.svg) 0 0 no-repeat;
+}
+
+.goal__item__growth::before {
+  background: url(/sites/all/themes/report-2016/images/icons/sdg_8.svg) 0 0 no-repeat;
+}
+
+.goal__item__water::before {
+  background: url(/sites/all/themes/report-2016/images/icons/sdg_6.svg) 0 0 no-repeat;
+}
+
+.goal__item__gender::before {
+  background: url(/sites/all/themes/report-2016/images/icons/sdg_5.svg) 0 0 no-repeat;
 }
 
 .goal__item__education::before {
@@ -656,7 +714,7 @@
 }
 
 .goal__quote {
-  font-family: "Proxima N W01 Xbold";
+  font-family: "Proxima N W01 Bold";
   font-weight: normal;
   font-size: 1.25rem;
   line-height: 1.15em;
@@ -676,17 +734,26 @@
 }
 
 .leaving__person1 {
-  background: url(/sites/all/themes/report-2016/images/photos/leaving_1.jpg) 0 0 no-repeat;
+  background: url(/sites/all/themes/report-2016/images/photos/azmera.jpg) 0 0 no-repeat;
+  padding: 20px 20px 20px 640px;
 }
 
 .leaving__person2 {
-  background: url(/sites/all/themes/report-2016/images/photos/leaving_2.jpg) 0 0 no-repeat;
+  background: url(/sites/all/themes/report-2016/images/photos/chief.jpg) 0 0 no-repeat;
+}
+
+.leaving__person3 {
+  background: url(/sites/all/themes/report-2016/images/photos/adiyo.jpg) 0 0 no-repeat;
+}
+
+.leaving__person4 {
+  background: url(/sites/all/themes/report-2016/images/photos/adiyo.jpg) 0 0 no-repeat;
 }
 
 .leaving__detail {
-  background: #006ab3;
+  background: rgba(0, 106, 179, 0.9);
   color: white;
-  font-family: "Proxima N W01 Xbold";
+  font-family: "Proxima N W01 Bold";
   font-weight: normal;
   font-size: 0.875rem;
   line-height: 1.21429em;
@@ -694,10 +761,11 @@
   margin-bottom: 20px;
   padding: 20px;
   width: 300px;
+  letter-spacing: 0.2px;
 }
 
 .leaving__quote {
-  background: white;
+  background: rgba(255, 255, 255, 0.9);
   color: #006ab3;
   font-family: "Proxima N W01 Xbold";
   font-weight: normal;
@@ -714,10 +782,10 @@
   background-size: cover;
 }
 .section_5_cover .section__title {
-  background: #00547c;
+  background: rgba(0, 84, 124, 0.9);
 }
 .section_5_cover .section__cover__detail {
-  background: #00547c;
+  background: rgba(0, 84, 124, 0.9);
 }
 
 .section5 .section__intro {
@@ -735,16 +803,34 @@
 .section5 strong {
   color: #00547c;
 }
+.section5 table {
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+.section5 td {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  text-align: left;
+  vertical-align: top;
+}
+.section5 th {
+  color: white;
+  background-color: #00547c;
+  border: 1px solid #00547c;
+  padding: 0.5rem;
+  text-align: left;
+  vertical-align: top;
+}
 
 .section_6_cover {
   background: url("/sites/all/themes/report-2016/images/photos/exec.jpg") 0 0 no-repeat;
   background-size: cover;
 }
 .section_6_cover .section__title {
-  background: #653f92;
+  background: rgba(101, 63, 146, 0.9);
 }
 .section_6_cover .section__cover__detail {
-  background: #653f92;
+  background: rgba(101, 63, 146, 0.9);
 }
 
 .section6 .section__intro {
@@ -761,6 +847,69 @@
 }
 .section6 strong {
   color: #653f92;
+}
+.section6 table {
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+.section6 td, .section6 th {
+  vertical-align: top;
+}
+.section6 .get2020 table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+.section6 .get2020 td, .section6 .get2020 th {
+  border: 1px solid white;
+  padding: 0.5rem;
+  text-align: right;
+  vertical-align: top;
+}
+.section6 .get2020 th.header-mid {
+  background-color: #653f92;
+  color: white;
+  text-align: center;
+}
+.section6 .get2020 th.header-left {
+  background-color: #282928;
+  color: white;
+  text-align: center;
+}
+.section6 .get2020 th.header-right {
+  background-color: #009ee3;
+  color: white;
+  text-align: center;
+}
+.section6 .get2020 td.left {
+  background-color: #e1e1e1;
+}
+.section6 .get2020 td.mid {
+  background-color: #e8e2ef;
+}
+.section6 .get2020 td.right {
+  background-color: #d9f0fb;
+}
+.section6 .get2020 .rleft {
+  text-align: left;
+}
+.section6 .get2020 .centre {
+  text-align: center;
+}
+.section6 .get2020 .footer td.left {
+  background-color: #282928;
+  color: white;
+  font-weight: bold;
+}
+.section6 .get2020 .footer td.mid {
+  background-color: #653f92;
+  color: white;
+  font-weight: bold;
+}
+.section6 .get2020 .footer td.right {
+  background-color: #009ee3;
+  color: white;
+  font-weight: bold;
 }
 
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */

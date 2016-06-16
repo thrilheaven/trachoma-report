@@ -2,10 +2,10 @@
   @include layout__cover__image('photos/exec.jpg');
 
   .section__title {
-    background: $data;
+    background: $velvet-opacity;
   }
 
   .section__cover__detail {
-    background: $data;
+    background: $velvet-opacity;
   }
 }

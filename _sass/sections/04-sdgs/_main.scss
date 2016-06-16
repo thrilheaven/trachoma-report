@@ -41,7 +41,36 @@
     top: 0;
     left: 0;
     width: 234px;
-    height: 100px;
+    height: 120px;
+  }
+}
+
+.goal__item__partnerships {
+  &::before {
+    background: url(/sites/all/themes/report-2016/images/icons/sdg_17.svg) 0 0 no-repeat;
+  }
+}
+
+.goal__item__inequalities {
+  &::before {
+    background: url(/sites/all/themes/report-2016/images/icons/sdg_10.svg) 0 0 no-repeat;
+  }
+}
+.goal__item__growth {
+  &::before {
+    background: url(/sites/all/themes/report-2016/images/icons/sdg_8.svg) 0 0 no-repeat;
+  }
+}
+
+.goal__item__water {
+  &::before {
+    background: url(/sites/all/themes/report-2016/images/icons/sdg_6.svg) 0 0 no-repeat;
+  }
+}
+
+.goal__item__gender {
+  &::before {
+    background: url(/sites/all/themes/report-2016/images/icons/sdg_5.svg) 0 0 no-repeat;
   }
 }
 
@@ -70,7 +99,7 @@
 }
 
 .goal__quote {
-  @include typography-base('xBd', 20px 23px);
+  @include typography-base('Bd', 20px 23px);
   margin: 0;
 }
 
@@ -87,25 +116,35 @@
 }
 
 .leaving__person1 {
-  background: url(/sites/all/themes/report-2016/images/photos/leaving_1.jpg) 0 0 no-repeat;
+  background: url(/sites/all/themes/report-2016/images/photos/azmera.jpg) 0 0 no-repeat;
+  padding: 20px 20px 20px 640px;
 }
 
 .leaving__person2 {
-  background: url(/sites/all/themes/report-2016/images/photos/leaving_2.jpg) 0 0 no-repeat;
+  background: url(/sites/all/themes/report-2016/images/photos/chief.jpg) 0 0 no-repeat;
+}
+
+.leaving__person3 {
+  background: url(/sites/all/themes/report-2016/images/photos/adiyo.jpg) 0 0 no-repeat;
+}
+
+.leaving__person4 {
+  background: url(/sites/all/themes/report-2016/images/photos/adiyo.jpg) 0 0 no-repeat;
 }
 
 .leaving__detail {
-  background: $sdgs;
+  background: $royal-opacity;
   color: $white;
-  @include typography-base('xBd', 14px 17px);
+  @include typography-base('Bd', 14px 17px);
   box-sizing: border-box;
   margin-bottom: 20px;
   padding: 20px;
   width: 300px;
+  letter-spacing: 0.2px;
 }
 
 .leaving__quote {
-  background: $white;
+  background: $white-opacity;
   color: $sdgs;
   @include typography-base('xBd', 30px 30px);
   box-sizing: border-box;

@@ -48,3 +48,9 @@
   right: 0;
   width: 220px;
 }
+
+.section__quote {
+    @include typography-base('xBd', 20px 23px);
+    margin: 0;
+    width: 220px;
+  }

@@ -1,6 +1,6 @@
 .language {
   position: fixed;
-  bottom: 22px + 2px;
+  bottom: 32px + 2px;
   right: 0;
   z-index: 200;
 }
@@ -22,7 +22,7 @@
   text-decoration: none;
 
   width: 100px;
-  padding: 5px 10px;
+  padding: 10px 10px;
   @include typography_base('xBd', 12px 12px);
 }
 

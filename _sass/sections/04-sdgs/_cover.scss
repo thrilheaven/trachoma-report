@@ -2,11 +2,11 @@
   @include layout__cover__image('photos/sdgs.jpg');
 
   .section__title {
-    background: $sdgs;
+    background: $royal-opacity;
     width: 360px;
   }
 
   .section__cover__detail {
-    background: $sdgs;
+    background: $royal-opacity;
   }
 }

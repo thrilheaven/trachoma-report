@@ -2,10 +2,10 @@
   @include layout__cover__image('photos/blueprint.jpg');
 
   .section__title {
-    background: $blueprint;
+    background: $navy-opacity;
   }
 
   .section__cover__detail {
-    background: $blueprint;
+    background: $navy-opacity;
   }
 }
