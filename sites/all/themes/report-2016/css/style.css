@@ -245,6 +245,34 @@
   padding: 107px 0 10px 0;
 }
 
+.foreword__aside__box {
+  background: #e1e1e1;
+  padding: 20px;
+  font-family: "Proxima Nova W08 Reg";
+  font-size: 0.875rem;
+  line-height: 1.14286em;
+}
+.foreword__aside__box p:last-child {
+  margin-bottom: 0;
+}
+
+.foreword__aside__title {
+  font-family: "Proxima N W01 Bold";
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.25em;
+  color: #009ee3;
+  margin: 0;
+}
+.foreword__aside__title::after {
+  display: block;
+  content: '';
+  padding-bottom: 5px;
+  margin-bottom: 6px;
+  width: 35px;
+  border-bottom: solid 1px black;
+}
+
 .language {
   position: fixed;
   bottom: 34px;

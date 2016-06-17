@@ -36,3 +36,28 @@
     padding: $scroll-header-height 0 10px 0;
   }
 }
+
+.foreword__aside__box {
+  background: $putty;
+  padding: 20px;
+  @include typography-base('Rg', 14px 16px);
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.foreword__aside__title {
+  @include typography-base('Bd', 16px 20px);
+  color: $sea;
+  margin: 0;
+
+  &::after {
+    display: block;
+    content: '';
+    padding-bottom: 10px - 5px;
+    margin-bottom: 10px - 4px;
+    width: 35px;
+    border-bottom: solid 1px black;
+  }
+}
