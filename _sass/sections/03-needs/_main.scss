@@ -19,3 +19,15 @@
     color: $needs;
   }
 }
+
+.checklist__list {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+
+.checklist__item {
+  list-style-type: none;
+  padding-left: 20px;
+  background: url(/sites/all/themes/report-2016/images/icons/tick.svg) left center no-repeat;
+}

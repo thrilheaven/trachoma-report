@@ -654,6 +654,17 @@
   color: #3bb6aa;
 }
 
+.checklist__list {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.checklist__item {
+  list-style-type: none;
+  padding-left: 20px;
+  background: url(/sites/all/themes/report-2016/images/icons/tick.svg) left center no-repeat;
+}
+
 .section_4_cover {
   background: url("/sites/all/themes/report-2016/images/photos/sdgs.jpg") 0 0 no-repeat;
   background-size: cover;
