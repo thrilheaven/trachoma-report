@@ -164,7 +164,6 @@
   font-size: 1.25rem;
   line-height: 1.15em;
   margin: 0;
-  width: 220px;
 }
 
 .download {
@@ -493,6 +492,9 @@
 .section2 .section__subtitle {
   color: #008590;
 }
+.section2 .section__quote {
+  color: #008590;
+}
 .section2 em {
   color: #008590;
 }
@@ -649,6 +651,9 @@
 .section3 .section__subtitle {
   color: #3bb6aa;
 }
+.section3 .section__quote {
+  color: #3bb6aa;
+}
 .section3 em {
   color: #3bb6aa;
 }
@@ -686,6 +691,9 @@
   color: #006ab3;
 }
 .section4 .section__subtitle {
+  color: #006ab3;
+}
+.section4 .section__quote {
   color: #006ab3;
 }
 .section4 em {
@@ -839,6 +847,9 @@
 .section5 .section__subtitle {
   color: #00547c;
 }
+.section5 .section__quote {
+  color: #00547c;
+}
 .section5 em {
   color: #00547c;
 }
@@ -882,6 +893,9 @@
   color: #653f92;
 }
 .section6 .section__subtitle {
+  color: #653f92;
+}
+.section6 .section__quote {
   color: #653f92;
 }
 .section6 .references__list {
