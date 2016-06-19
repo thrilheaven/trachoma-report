@@ -106,10 +106,12 @@
 .section__body::after {
   clear: both;
 }
-.section__body em {
+.section__body em,
+.section__body i {
   font-family: "Proxima N W01 Reg It";
   font-style: normal;
 }
+.section__body b,
 .section__body strong {
   font-family: "Proxima N W01 Bold";
   font-weight: normal;
@@ -1371,6 +1373,14 @@ textarea {
   /* 1 */
   font: inherit;
   /* 2 */
+}
+
+a {
+  color: #009ee3;
+  text-decoration: none;
+}
+a:focus, a:hover {
+  text-decoration: underline;
 }
 
 blockquote {

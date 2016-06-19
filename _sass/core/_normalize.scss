@@ -424,6 +424,16 @@
 @mixin normalize() {
   @include normalize__default();
 
+  a {
+    color: $sea;
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
   blockquote {
     margin: 0;
     padding: 0;

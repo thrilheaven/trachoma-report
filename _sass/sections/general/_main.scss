@@ -3,11 +3,13 @@
   @include layout__clearfix();
   @include typography-base('Rg', 16px 20px);
 
-  em {
+  em,
+  i {
     font-family: font-mapping('RgIt');
     font-style: normal;
   }
 
+  b,
   strong {
     font-family: font-mapping('Bd');
     font-weight: normal;
