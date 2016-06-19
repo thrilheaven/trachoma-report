@@ -882,6 +882,21 @@
 .section6 .section__subtitle {
   color: #653f92;
 }
+.section6 .references__list {
+  padding-left: 15px;
+}
+.section6 .references__item {
+  font-family: "Proxima Nova W08 Reg";
+  font-size: 0.875rem;
+  line-height: 1.14286em;
+  margin-bottom: 10px;
+}
+.section6 .photo__credits {
+  font-family: "Proxima Nova W08 Reg";
+  font-size: 0.875rem;
+  line-height: 1.14286em;
+  margin-bottom: 10px;
+}
 .section6 em {
   color: #653f92;
 }

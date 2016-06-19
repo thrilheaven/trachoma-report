@@ -11,6 +11,19 @@
     color: $data;
   }
 
+  .references__list {
+    padding-left: 15px;
+  }
+  .references__item {
+    @include typography-base('Rg', 14px 16px);
+    margin-bottom: 10px;
+  }
+
+  .photo__credits {
+    @include typography-base('Rg', 14px 16px);
+    margin-bottom: 10px;
+  }
+
   em {
     color: $data;
   }
@@ -18,6 +31,7 @@
   strong {
     color: $data;
   }
+
   table {
   border-collapse: collapse;
   margin-bottom: 30px;
@@ -27,70 +41,74 @@ td, th {
   vertical-align: top;
 }
 .get2020 {
-table {
-  width:100%;
-  border-collapse: collapse;
-  margin-bottom: 30px;
-}
+  table {
+    width:100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+  }
 
-td,th {
-  border: 1px solid $white;
-  padding: 0.5rem;
-  text-align: right;
-  vertical-align: top;
-}
-th.header-mid {
-background-color: $data;
-color: $white;
-text-align: center;
-}
+  td,th {
+    border: 1px solid $white;
+    padding: 0.5rem;
+    text-align: right;
+    vertical-align: top;
+  }
 
-th.header-left {
-background-color: $charcoal;
-color: $white;
-text-align: center;
-}
-th.header-right {
-background-color: $sea;
-color: $white;
-text-align: center;
-}
-td.left {
-background-color: $putty;
+  th.header-mid {
+    background-color: $data;
+    color: $white;
+    text-align: center;
+  }
 
-}
-td.mid {
-background-color: rgb(232,226,239);
-}
-td.right {
-background-color: rgb(217,240,251);
-}
-.rleft {
-text-align: left;
-}
-.centre {
-text-align: center;
-}
-.footer {
- 
-td.left {
-background-color: $charcoal;
-color: $white;
-font-weight: bold;
-}
-td.mid {
-background-color: $data;
-color: $white;
-font-weight: bold;
-}
-td.right {
-background-color: $sea;
-color: $white;
-font-weight: bold;
-}
-}
+  th.header-left {
+    background-color: $charcoal;
+    color: $white;
+    text-align: center;
+  }
 
+  th.header-right {
+    background-color: $sea;
+    color: $white;
+    text-align: center;
+  }
 
+  td.left {
+    background-color: $putty;
+  }
+
+  td.mid {
+    background-color: rgb(232,226,239);
+  }
+
+  td.right {
+    background-color: rgb(217,240,251);
+  }
+
+  .rleft {
+    text-align: left;
+  }
+
+  .centre {
+    text-align: center;
+  }
+
+  .footer {
+    td.left {
+      background-color: $charcoal;
+      color: $white;
+      font-weight: bold;
+    }
+    td.mid {
+      background-color: $data;
+      color: $white;
+      font-weight: bold;
+    }
+    td.right {
+      background-color: $sea;
+      color: $white;
+      font-weight: bold;
+    }
+  }
 }
 
 
