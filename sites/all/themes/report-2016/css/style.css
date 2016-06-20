@@ -582,6 +582,9 @@
 .section__case_study {
   background-color: #009ee3;
   padding: 30px 0;
+  font-family: "Proxima Nova W08 Reg";
+  font-size: 1rem;
+  line-height: 1.25em;
 }
 .section__case_study .section__intro {
   color: #006ab3;

@@ -1,6 +1,7 @@
 .section__case_study {
   background-color: $sea;
   padding: 30px 0;
+  @include typography-base('Rg', 16px 20px);
 
   .section__intro {
     color: $royal;
