@@ -21,6 +21,7 @@
 
   strong {
     color: $blueprint;
+    font-size:22px;
   }
   table {
   border-collapse: collapse;
@@ -28,17 +29,37 @@
 }
 
 td {
-  border: 1px solid #999;
-  padding: 0.5rem;
+  padding-top: 20px;
   text-align: left;
   vertical-align: top;
+  color: $blueprint;
+  
+  
+  
+  li {
+	list-style-type: none;
+  padding-left: 35px;
+  background: url(/sites/all/themes/report-2016/images/icons/tick_blue.svg) left 5px no-repeat;
+  padding-bottom:7px;
+  }
+  
+  ul {
+  padding: 10px 0px 20px 0px;
+  }
+  
 }
 th {
   color: white;
   background-color: $blueprint;
-  border: 1px solid $blueprint;
-  padding: 0.5rem;
+  padding: 5px 10px;
   text-align: left;
   vertical-align: top;
+  @include typography-base('Bd', 22px 24px);
+
 }
+.headline {
+  @include typography-base('xBd', 30px 29px);
+  padding-right:50px;
+  }
+
 }
