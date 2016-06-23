@@ -168,7 +168,7 @@
   margin-top: 0;
 }
 .section__aside p.caption {
-  margin-top: 12px;
+  margin-top: 5px;
 }
 
 .section__quote {
@@ -508,6 +508,7 @@
 }
 .section2 .section__subtitle {
   color: #008590;
+  margin-bottom: 10px;
 }
 .section2 .section__quote {
   color: #008590;
@@ -518,11 +519,24 @@
 .section2 strong {
   color: #008590;
 }
+.section2 ul {
+  list-style-position: inside;
+  padding-left: 15px;
+  text-indent: -15px;
+}
+.section2 ol {
+  list-style-position: inside;
+  padding-left: 15px;
+  text-indent: -15px;
+}
+.section2 li {
+  padding-bottom: 7px;
+}
 
 .section__subtitle__economic {
   margin-top: 15px;
-  padding-top: 80px;
-  background: url(/sites/all/themes/report-2016/images/icons/dollar_icon.svg) 0 0 no-repeat;
+  padding: 80px 0  0 90px;
+  background: url(/sites/all/themes/report-2016/images/icons/dollar_icon.svg) 0 26px no-repeat;
 }
 
 .section__aside__economic {
@@ -531,8 +545,8 @@
 
 .section__subtitle__knowledge {
   margin-top: 15px;
-  padding-top: 97px;
-  background: url(/sites/all/themes/report-2016/images/icons/knowledge_scale_icon.svg) 0 0 no-repeat;
+  padding: 97px 0  0 80px;
+  background: url(/sites/all/themes/report-2016/images/icons/knowledge_scale_icon.svg) 0 26px no-repeat;
 }
 
 .section__aside__knowledge {
@@ -541,8 +555,8 @@
 
 .section__subtitle__political {
   margin-top: 15px;
-  padding-top: 87px;
-  background: url(/sites/all/themes/report-2016/images/icons/political_will_icon.svg) 0 0 no-repeat;
+  padding: 87px 0  0 80px;
+  background: url(/sites/all/themes/report-2016/images/icons/political_will_icon.svg) 0 26px no-repeat;
 }
 
 .section__aside__political {
@@ -551,8 +565,8 @@
 
 .section__subtitle__partnerships {
   margin-top: 15px;
-  padding-top: 70px;
-  background: url(/sites/all/themes/report-2016/images/icons/partner_icon.svg) 0 0 no-repeat;
+  padding: 70px 0  0 90px;
+  background: url(/sites/all/themes/report-2016/images/icons/partner_icon.svg) 0 26px no-repeat;
 }
 
 .section__aside__partnerships {
@@ -561,8 +575,8 @@
 
 .section__subtitle__leadership {
   margin-top: 15px;
-  padding-top: 70px;
-  background: url(/sites/all/themes/report-2016/images/icons/leader_icon.svg) 0 0 no-repeat;
+  padding: 70px 0  0 80px;
+  background: url(/sites/all/themes/report-2016/images/icons/leader_icon.svg) 0 26px no-repeat;
 }
 
 .section__aside__leadership {
@@ -571,8 +585,8 @@
 
 .section__subtitle__vision {
   margin-top: 15px;
-  padding-top: 70px;
-  background: url(/sites/all/themes/report-2016/images/icons/vision_icon.svg) 0 0 no-repeat;
+  padding: 70px 0  0 100px;
+  background: url(/sites/all/themes/report-2016/images/icons/vision_icon.svg) 0 26px no-repeat;
 }
 
 .section__aside__vision {
@@ -598,12 +612,17 @@
   font-size: 1.875rem;
   line-height: 1.16667em;
   color: #006ab3;
+  padding-top: 0;
 }
 .section__case_study .section__subtitle {
   font-family: "Proxima N W01 Xbold";
   font-weight: normal;
   font-size: 1.25rem;
   line-height: 1.15em;
+  color: #009ee3;
+}
+.section__case_study .section__quote {
+  color: #009ee3;
 }
 .section__case_study .section__title__highlight {
   display: block;
@@ -639,6 +658,19 @@
   top: 230px;
   right: 30px;
   width: 250px;
+}
+.section__case_study__aside p {
+  margin: 20px 0 0 0;
+}
+.section__case_study__aside p:first-child {
+  margin-top: 0;
+}
+.section__case_study__aside p.caption {
+  margin-top: 5px;
+}
+
+.leading {
+  top: 1732px;
 }
 
 .case_study__image {
@@ -685,6 +717,9 @@
 }
 .section3 strong {
   color: #3bb6aa;
+}
+.section3 ul {
+  padding-left: 0;
 }
 
 .checklist__list {
@@ -900,7 +935,7 @@
   padding-bottom: 7px;
 }
 .section5 td ul {
-  padding: 10px 0px 20px 0px;
+  padding: 10px 0 20px 0;
 }
 .section5 th {
   color: white;
@@ -922,7 +957,7 @@
 }
 
 .section_6_cover {
-  background: url("/sites/all/themes/report-2016/images/photos/exec.jpg") 0 0 no-repeat;
+  background: url("/sites/all/themes/report-2016/images/photos/data.jpg") 0 0 no-repeat;
   background-size: cover;
 }
 .section_6_cover .section__title {

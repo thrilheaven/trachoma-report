@@ -9,6 +9,7 @@
 
   .section__subtitle {
     color: $summary;
+    margin-bottom: 10px;
   }
 
   .section__quote {
@@ -22,12 +23,26 @@
   strong {
     color: $summary;
   }
+  
+  ul {
+    list-style-position: inside;
+    padding-left:15px;
+    text-indent:-15px;
+}
+ol {
+    list-style-position: inside;
+    padding-left:15px;
+    text-indent:-15px;
+}
+
+li { padding-bottom:7px;
+}
 }
 
 .section__subtitle__economic {
   margin-top: (40px - 25px);
-  padding-top: 80px;
-  background: url(/sites/all/themes/report-2016/images/icons/dollar_icon.svg) 0 0 no-repeat;
+  padding: 80px 0  0 90px;
+  background: url(/sites/all/themes/report-2016/images/icons/dollar_icon.svg) 0 26px no-repeat;
 }
 
 .section__aside__economic {
@@ -36,8 +51,8 @@
 
 .section__subtitle__knowledge {
   margin-top: (40px - 25px);
-  padding-top: 97px;
-  background: url(/sites/all/themes/report-2016/images/icons/knowledge_scale_icon.svg) 0 0 no-repeat;
+  padding: 97px 0  0 80px;
+  background: url(/sites/all/themes/report-2016/images/icons/knowledge_scale_icon.svg) 0 26px no-repeat;
 }
 
 .section__aside__knowledge {
@@ -46,8 +61,8 @@
 
 .section__subtitle__political {
   margin-top: (40px - 25px);
-  padding-top: 87px;
-  background: url(/sites/all/themes/report-2016/images/icons/political_will_icon.svg) 0 0 no-repeat;
+  padding: 87px 0  0 80px;
+  background: url(/sites/all/themes/report-2016/images/icons/political_will_icon.svg) 0 26px no-repeat;
 }
 
 .section__aside__political {
@@ -56,8 +71,8 @@
 
 .section__subtitle__partnerships {
   margin-top: (40px - 25px);
-  padding-top: 70px;
-  background: url(/sites/all/themes/report-2016/images/icons/partner_icon.svg) 0 0 no-repeat;
+  padding: 70px 0  0 90px;
+  background: url(/sites/all/themes/report-2016/images/icons/partner_icon.svg) 0 26px no-repeat;
 }
 
 .section__aside__partnerships {
@@ -66,8 +81,8 @@
 
 .section__subtitle__leadership {
   margin-top: (40px - 25px);
-  padding-top: 70px;
-  background: url(/sites/all/themes/report-2016/images/icons/leader_icon.svg) 0 0 no-repeat;
+  padding: 70px 0  0 80px;
+  background: url(/sites/all/themes/report-2016/images/icons/leader_icon.svg) 0 26px no-repeat;
 }
 
 .section__aside__leadership {
@@ -76,8 +91,8 @@
 
 .section__subtitle__vision {
   margin-top: (40px - 25px);
-  padding-top: 70px;
-  background: url(/sites/all/themes/report-2016/images/icons/vision_icon.svg) 0 0 no-repeat;
+  padding: 70px 0  0 100px;
+  background: url(/sites/all/themes/report-2016/images/icons/vision_icon.svg) 0 26px no-repeat;
 }
 
 .section__aside__vision {

@@ -11,12 +11,18 @@
   .section__title {
     @include typography-base('xBd', 30px 35px);
     color: $royal;
+    padding-top:0;
   }
 
   .section__subtitle {
     @include typography-base('xBd', 20px 23px);
+    color: $sea;
   }
 
+  .section__quote {
+    color: $sea;
+  }
+  
   .section__title__highlight {
     display: block;
     color: $sea;
@@ -52,8 +58,26 @@
   top: 190px + 40px;
   right: 30px;
   width: 250px;
+  
+
+  p {
+    margin: 20px 0 0 0;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &.caption {
+      margin-top: 5px;
+    }
+    }
+    
 }
 
+.leading {
+    top: 1732px;
+    }
+    
 .case_study__image {
   float: left;
   margin: 5px 10px 10px 0;
