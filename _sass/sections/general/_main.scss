@@ -2,6 +2,8 @@
   @include layout__center();
   @include layout__clearfix();
   @include typography-base('Rg', 16px 20px);
+  
+  
 
   em,
   i {
@@ -42,11 +44,13 @@
 
 .section__article {
   width: 960px - 250px - 20px;
+  
+  
 }
 
 .section__aside {
   position: absolute;
-  top: 0;
+  top: 5px;
   right: 0;
   width: 220px;
 

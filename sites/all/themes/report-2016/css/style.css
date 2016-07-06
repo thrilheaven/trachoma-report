@@ -157,7 +157,7 @@
 
 .section__aside {
   position: absolute;
-  top: 0;
+  top: 5px;
   right: 0;
   width: 220px;
 }
@@ -240,6 +240,15 @@
   right: 30px;
   width: 250px;
 }
+.section__foreword__aside p {
+  margin: 20px 0 0 0;
+}
+.section__foreword__aside p:first-child {
+  margin-top: 0;
+}
+.section__foreword__aside p.caption {
+  margin-top: 5px;
+}
 
 .section__foreword {
   font-family: "Proxima Nova W08 Reg";
@@ -269,6 +278,7 @@
   font-family: "Proxima Nova W08 Reg";
   font-size: 0.875rem;
   line-height: 1.14286em;
+  margin-top: 20px;
 }
 .foreword__aside__box p:last-child {
   margin-bottom: 0;
@@ -285,10 +295,9 @@
 .foreword__aside__title::after {
   display: block;
   content: '';
-  padding-bottom: 5px;
-  margin-bottom: 6px;
-  width: 35px;
-  border-bottom: solid 1px black;
+  padding-bottom: 15px;
+  width: 40px;
+  border-bottom: solid 2px #009ee3;
 }
 
 .language {
@@ -455,8 +464,8 @@
   display: block;
   content: '';
   width: 50px;
-  border-bottom: solid 1px white;
-  margin: 11px 0 8px 0;
+  border-bottom: solid 2px white;
+  margin: 11px 0 15px 0;
 }
 
 .report__title__break {
@@ -487,6 +496,13 @@
 }
 .js-report__header .report__title__strapline {
   display: none;
+}
+
+.fr_title {
+  font-family: "Proxima N W01 Xbold";
+  font-weight: normal;
+  font-size: 3.0625rem;
+  line-height: 0.97959em;
 }
 
 .section_2_cover {
@@ -529,6 +545,9 @@
   padding-left: 15px;
   text-indent: -15px;
 }
+.section2 p:last-child {
+  margin-bottom: 30px;
+}
 .section2 li {
   padding-bottom: 7px;
 }
@@ -540,7 +559,7 @@
 }
 
 .section__aside__economic {
-  top: 95px;
+  top: 117px;
 }
 
 .section__subtitle__knowledge {
@@ -550,7 +569,7 @@
 }
 
 .section__aside__knowledge {
-  top: 112px;
+  top: 134px;
 }
 
 .section__subtitle__political {
@@ -560,7 +579,7 @@
 }
 
 .section__aside__political {
-  top: 102px;
+  top: 106px;
 }
 
 .section__subtitle__partnerships {
@@ -570,7 +589,7 @@
 }
 
 .section__aside__partnerships {
-  top: 85px;
+  top: 91px;
 }
 
 .section__subtitle__leadership {
@@ -580,7 +599,7 @@
 }
 
 .section__aside__leadership {
-  top: 85px;
+  top: 91px;
 }
 
 .section__subtitle__vision {
@@ -671,6 +690,10 @@
 
 .leading {
   top: 1732px;
+}
+
+.fr_leading {
+  top: 1900px;
 }
 
 .case_study__image {
@@ -768,23 +791,24 @@
 }
 
 .goal__list {
-  margin-left: 0;
   padding-left: 0;
+  margin: 20px 0 0 0;
 }
 
 .goal__item {
   list-style-type: none;
-  padding-left: 234px;
-  margin-bottom: 40px;
+  padding-left: 185px;
   position: relative;
+  min-height: 180px;
+  width: 600px;
 }
 .goal__item::before {
   content: '';
   position: absolute;
-  top: 0;
+  top: 2px;
   left: 0;
-  width: 234px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
 }
 
 .goal__item__partnerships::before {
@@ -824,15 +848,20 @@
 }
 
 .goal__quote {
-  font-family: "Proxima N W01 Bold";
-  font-weight: normal;
+  font-family: "Proxima N W01 Light";
   font-size: 1.25rem;
   line-height: 1.15em;
   margin: 0;
 }
 
 .goal__cite {
+  font-family: "Proxima N W01 Bold";
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.4375em;
+  margin: 0;
   font-style: normal;
+  color: #006ab3;
 }
 
 .leaving__person {
@@ -887,6 +916,37 @@
   padding: 20px;
   width: 300px;
 }
+.leaving__quote p {
+  font-family: "Proxima N W01 Xbold";
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1em;
+  margin: 0px;
+}
+.leaving__quote p::before {
+  display: block;
+  content: '';
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  width: 35px;
+  border-bottom: solid 2px #006ab3;
+}
+
+.fr_quote {
+  font-family: "Proxima N W01 Xbold";
+  font-weight: normal;
+  font-size: 1.4375rem;
+  line-height: 1em;
+  width: 330px;
+}
+
+.fr_detail {
+  width: 330px;
+}
+
+.fr_right {
+  padding-left: 610px;
+}
 
 .section_5_cover {
   background: url("/sites/all/themes/report-2016/images/photos/blueprint.jpg") 0 0 no-repeat;
@@ -920,13 +980,12 @@
 }
 .section5 table {
   border-collapse: collapse;
-  margin-bottom: 30px;
+  margin: 30px 0 30px 0;
 }
 .section5 td {
   padding-top: 20px;
   text-align: left;
   vertical-align: top;
-  color: #00547c;
 }
 .section5 td li {
   list-style-type: none;
@@ -951,9 +1010,10 @@
 .section5 .headline {
   font-family: "Proxima N W01 Xbold";
   font-weight: normal;
-  font-size: 1.875rem;
-  line-height: 0.96667em;
+  font-size: 1.5rem;
+  line-height: 1.08333em;
   padding-right: 50px;
+  color: #00547c;
 }
 
 .section_6_cover {
@@ -980,7 +1040,7 @@
   color: #653f92;
 }
 .section6 .references__list {
-  padding-left: 15px;
+  padding-left: 20px;
 }
 .section6 .references__item {
   font-family: "Proxima Nova W08 Reg";
@@ -994,6 +1054,12 @@
   line-height: 1.14286em;
   margin-bottom: 10px;
 }
+.section6 .disclaimer {
+  font-family: "Proxima Nova W08 Reg";
+  font-size: 0.875rem;
+  line-height: 1.14286em;
+  margin: 20px 0 30px;
+}
 .section6 em {
   color: #653f92;
 }
@@ -1002,7 +1068,7 @@
 }
 .section6 table {
   border-collapse: collapse;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .section6 td, .section6 th {
   vertical-align: top;
@@ -1010,7 +1076,7 @@
 .section6 .get2020 table {
   width: 100%;
   border-collapse: collapse;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .section6 .get2020 td, .section6 .get2020 th {
   border: 1px solid white;

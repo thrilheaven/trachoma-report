@@ -29,23 +29,25 @@
 }
 
 .goal__list {
-  margin-left: 0;
   padding-left: 0;
+  margin:20px 0 0 0;
 }
 
 .goal__item {
   list-style-type: none;
-  padding-left: 234px;
-  margin-bottom: 2 * 20px;
+  padding-left: 185px;
   position: relative;
+  min-height: 180px;
+  width: 600px;
+
   
   &::before {
     content: '';
     position: absolute;
-    top: 0;
+    top: 2px;
     left: 0;
-    width: 234px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
   }
 }
 
@@ -103,12 +105,15 @@
 }
 
 .goal__quote {
-  @include typography-base('Bd', 20px 23px);
+  @include typography-base('Lt', 20px 23px);
   margin: 0;
 }
 
 .goal__cite {
+  @include typography-base('Bd', 16px 23px);
+  margin: 0;
   font-style: normal;
+  color: $sdgs;
 }
 
 .leaving__person {
@@ -156,4 +161,33 @@
   margin-bottom: 20px;
   padding: 20px;
   width: 300px;
+  
+  
+  
+  p {
+  @include typography-base('xBd', 16px 16px);
+  margin: 0px;
+  
+  &::before {
+    display: block;
+    content: '';
+    padding-bottom: 20px - 5px;
+    margin-bottom: 20px - 5px;
+    width: 35px;
+    border-bottom: solid 2px $sdgs;
+  }
+  
+  }
+  
 }
+.fr_quote {
+  @include typography-base('xBd', 23px 23px);
+  width:330px;
+  }
+  .fr_detail {
+  width:330px;
+  }
+  
+  .fr_right {
+  padding-left:610px;
+  }

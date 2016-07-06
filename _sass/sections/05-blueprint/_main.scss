@@ -25,14 +25,13 @@
   }
   table {
   border-collapse: collapse;
-  margin-bottom: 30px;
+  margin:30px 0 30px 0;
 }
 
 td {
   padding-top: 20px;
   text-align: left;
   vertical-align: top;
-  color: $blueprint;
   
   
   
@@ -58,8 +57,9 @@ th {
 
 }
 .headline {
-  @include typography-base('xBd', 30px 29px);
+  @include typography-base('xBd', 24px 26px);
   padding-right:50px;
+  color: $blueprint;
   }
 
 }

@@ -35,6 +35,10 @@ ol {
     text-indent:-15px;
 }
 
+p:last-child {
+margin-bottom:30px;
+}
+
 li { padding-bottom:7px;
 }
 }
@@ -46,7 +50,7 @@ li { padding-bottom:7px;
 }
 
 .section__aside__economic {
-  top: 80px + (40px - 25px);
+  top: 102px + (40px - 25px);
 }
 
 .section__subtitle__knowledge {
@@ -56,7 +60,7 @@ li { padding-bottom:7px;
 }
 
 .section__aside__knowledge {
-  top: 97px + (40px - 25px);
+  top: 119px + (40px - 25px);
 }
 
 .section__subtitle__political {
@@ -66,7 +70,7 @@ li { padding-bottom:7px;
 }
 
 .section__aside__political {
-  top: 87px + (40px - 25px);
+  top: 91px + (40px - 25px);
 }
 
 .section__subtitle__partnerships {
@@ -76,7 +80,7 @@ li { padding-bottom:7px;
 }
 
 .section__aside__partnerships {
-  top: 70px + (40px - 25px);
+  top: 76px + (40px - 25px);
 }
 
 .section__subtitle__leadership {
@@ -86,7 +90,7 @@ li { padding-bottom:7px;
 }
 
 .section__aside__leadership {
-  top: 70px + (40px - 25px);
+  top: 76px + (40px - 25px);
 }
 
 .section__subtitle__vision {

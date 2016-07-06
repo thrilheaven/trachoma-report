@@ -10,8 +10,8 @@
     display: block;
     content: '';
     width: 50px;
-    border-bottom: solid 1px $white;
-    margin: (20px - 9px) 0 (10px - 2px) 0;
+    border-bottom: solid 2px $white;
+    margin: (20px - 9px) 0 (17px - 2px) 0;
   }
 }
 
@@ -43,4 +43,8 @@
   .report__title__strapline {
     display: none;
   }
+}
+
+.fr_title {
+@include typography-base('xBd', 49px 48px);
 }
