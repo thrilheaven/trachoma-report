@@ -693,7 +693,15 @@
 }
 
 .fr_leading {
-  top: 1900px;
+  top: 1920px;
+}
+
+.es_leading {
+  top: 1795px;
+}
+
+.pt_leading {
+  top: 1815px;
 }
 
 .case_study__image {
@@ -800,7 +808,7 @@
   padding-left: 185px;
   position: relative;
   min-height: 180px;
-  width: 600px;
+  width: 630px;
 }
 .goal__item::before {
   content: '';
@@ -809,6 +817,120 @@
   left: 0;
   width: 150px;
   height: 150px;
+}
+
+.goal__item__partnerships_pt::before {
+  background: url(/sites/all/themes/report-2016/images/icons/pt/sdg_17.svg) 0 0 no-repeat;
+}
+
+.goal__item__inequalities_pt::before {
+  background: url(/sites/all/themes/report-2016/images/icons/pt/sdg_10.svg) 0 0 no-repeat;
+}
+
+.goal__item__growth_pt::before {
+  background: url(/sites/all/themes/report-2016/images/icons/pt/sdg_8.svg) 0 0 no-repeat;
+}
+
+.goal__item__water_pt::before {
+  background: url(/sites/all/themes/report-2016/images/icons/pt/sdg_6.svg) 0 0 no-repeat;
+}
+
+.goal__item__gender_pt::before {
+  background: url(/sites/all/themes/report-2016/images/icons/pt/sdg_5.svg) 0 0 no-repeat;
+}
+
+.goal__item__education_pt::before {
+  background: url(/sites/all/themes/report-2016/images/icons/pt/sdg_4.svg) 0 0 no-repeat;
+}
+
+.goal__item__health_pt::before {
+  background: url(/sites/all/themes/report-2016/images/icons/pt/sdg_3.svg) 0 0 no-repeat;
+}
+
+.goal__item__hunger_pt::before {
+  background: url(/sites/all/themes/report-2016/images/icons/pt/sdg_2.svg) 0 0 no-repeat;
+}
+
+.goal__item__poverty_pt::before {
+  background: url(/sites/all/themes/report-2016/images/icons/pt/sdg_1.svg) 0 0 no-repeat;
+}
+
+.goal__item__partnerships_es::before {
+  background: url(/sites/all/themes/report-2016/images/icons/es/sdg_17.svg) 0 0 no-repeat;
+}
+
+.goal__item__inequalities_es {
+  width: 645px;
+}
+.goal__item__inequalities_es::before {
+  background: url(/sites/all/themes/report-2016/images/icons/es/sdg_10.svg) 0 0 no-repeat;
+}
+
+.goal__item__growth_es::before {
+  background: url(/sites/all/themes/report-2016/images/icons/es/sdg_8.svg) 0 0 no-repeat;
+}
+
+.goal__item__water_es::before {
+  background: url(/sites/all/themes/report-2016/images/icons/es/sdg_6.svg) 0 0 no-repeat;
+}
+
+.goal__item__gender_es::before {
+  background: url(/sites/all/themes/report-2016/images/icons/es/sdg_5.svg) 0 0 no-repeat;
+}
+
+.goal__item__education_es::before {
+  background: url(/sites/all/themes/report-2016/images/icons/es/sdg_4.svg) 0 0 no-repeat;
+}
+
+.goal__item__health_es::before {
+  background: url(/sites/all/themes/report-2016/images/icons/es/sdg_3.svg) 0 0 no-repeat;
+}
+
+.goal__item__hunger_es::before {
+  background: url(/sites/all/themes/report-2016/images/icons/es/sdg_2.svg) 0 0 no-repeat;
+}
+
+.goal__item__poverty_es::before {
+  background: url(/sites/all/themes/report-2016/images/icons/es/sdg_1.svg) 0 0 no-repeat;
+}
+
+.goal__item__partnerships_fr::before {
+  background: url(/sites/all/themes/report-2016/images/icons/fr/sdg_17.svg) 0 0 no-repeat;
+}
+
+.goal__item__inequalities_fr {
+  width: 690px;
+}
+.goal__item__inequalities_fr::before {
+  background: url(/sites/all/themes/report-2016/images/icons/fr/sdg_10.svg) 0 0 no-repeat;
+}
+
+.goal__item__growth_fr::before {
+  background: url(/sites/all/themes/report-2016/images/icons/fr/sdg_8.svg) 0 0 no-repeat;
+}
+
+.goal__item__water_fr::before {
+  background: url(/sites/all/themes/report-2016/images/icons/fr/sdg_6.svg) 0 0 no-repeat;
+}
+
+.goal__item__gender_fr::before {
+  background: url(/sites/all/themes/report-2016/images/icons/fr/sdg_5.svg) 0 0 no-repeat;
+}
+
+.goal__item__education_fr::before {
+  background: url(/sites/all/themes/report-2016/images/icons/fr/sdg_4.svg) 0 0 no-repeat;
+}
+
+.goal__item__health_fr::before {
+  background: url(/sites/all/themes/report-2016/images/icons/fr/sdg_3.svg) 0 0 no-repeat;
+}
+
+.goal__item__hunger_fr::before {
+  background: url(/sites/all/themes/report-2016/images/icons/fr/sdg_2.svg) 0 0 no-repeat;
+}
+
+.goal__item__poverty_fr::before {
+  background: url(/sites/all/themes/report-2016/images/icons/fr/sdg_1.svg) 0 0 no-repeat;
 }
 
 .goal__item__partnerships::before {
