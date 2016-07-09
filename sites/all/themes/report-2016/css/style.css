@@ -457,7 +457,7 @@
 @media screen and (max-width: 600px) {
   .report__header {
     margin: 0 16px;
-    width: calc(100% - 16px * 2);
+    width: calc(100% - $padding-horizontal-mobile * 2);
   }
 }
 
@@ -473,7 +473,7 @@
     margin: 0 16px;
     left: 0;
     transform: none;
-    width: calc(100% - 16px * 2);
+    width: calc(100% - $padding-horizontal-mobile * 2);
   }
 }
 
