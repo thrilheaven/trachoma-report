@@ -49,7 +49,19 @@
 td, th {
   vertical-align: top;
 }
+
+  @include breakpoint_mobile() {
+    td,
+    th {
+      display: block;
+    }
+  }
+
 .get2020 {
+  @include breakpoint_mobile() {
+    display: none;
+  }
+
   table {
     width:100%;
     border-collapse: collapse;

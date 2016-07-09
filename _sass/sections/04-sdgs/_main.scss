@@ -40,7 +40,12 @@
   min-height: 180px;
   width: 630px;
 
-  
+  @include breakpoint_mobile() {
+    box-sizing: border-box;
+    padding: (150px + 20px) 16px 0 16px;
+    width: 100%;
+  }
+
   &::before {
     content: '';
     position: absolute;
@@ -48,6 +53,11 @@
     left: 0;
     width: 150px;
     height: 150px;
+
+    @include breakpoint_mobile() {
+      left: 16px;
+      top: 0;
+    }
   }
 }
 
@@ -286,6 +296,10 @@
 .leaving__person1 {
   background: url(/sites/all/themes/report-2016/images/photos/azmera.jpg) 0 0 no-repeat;
   padding: 20px 20px 20px 640px;
+
+  @include breakpoint_mobile() {
+    padding: 20px;
+  }
 }
 
 .leaving__person2 {
@@ -299,6 +313,10 @@
 .leaving__person4 {
   background: url(/sites/all/themes/report-2016/images/photos/sisters.jpg) 0 0 no-repeat;
   padding: 20px 20px 20px 640px;
+
+  @include breakpoint_mobile() {
+    padding: 20px;
+  }
 }
 
 .leaving__detail {

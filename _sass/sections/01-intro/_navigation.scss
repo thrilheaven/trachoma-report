@@ -11,6 +11,16 @@
   text-align: center;
   text-decoration: none;
   letter-spacing: 0.2px;
+
+  @include breakpoint_mobile() {
+    height: 16px;
+  }
+}
+
+@include breakpoint_mobile() {
+  .main-navigation__text {
+    @include hide_in_dom();
+  }
 }
 
 .main-navigation__item__home {

@@ -8,6 +8,11 @@
   @include layout__center();
   z-index: 100;
 
+  @include breakpoint_mobile() {
+    margin: 0 16px;
+    width: calc(100% - 16px * 2);
+  }
+
   background: $sea-opacity;
   color: $white;
 }
@@ -16,6 +21,14 @@
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
+  width: 960px;
+
+  @include breakpoint_mobile() {
+    margin: 0 16px;
+    left: 0;
+    transform: none;
+    width: calc(100% - 16px * 2);
+  }
 
   background: $sea;
 }

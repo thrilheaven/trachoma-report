@@ -1,6 +1,7 @@
-@mixin layout__center($width: 960px) {
+@mixin layout__center($max-width: 960px, $min-width: 288px) {
     margin: 0 auto;
-    width: $width;
+    max-width: $max-width;
+    min-width: $min-width;
 }
 
 @mixin layout__clearfix() {

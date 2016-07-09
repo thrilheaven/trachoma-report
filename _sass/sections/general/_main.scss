@@ -25,7 +25,7 @@
 .section__subtitle {
   @include typography-base('xBd', 20px 23px);
   margin: (40px - 5px) 0 0 0;
-  width: 530px;
+  max-width: 530px;
 }
 
 .section__title {
@@ -45,7 +45,11 @@
 .section__article {
   width: 960px - 250px - 20px;
   
-  
+  @include breakpoint_mobile() {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 16px;
+  }
 }
 
 .section__aside {
@@ -53,6 +57,13 @@
   top: 5px;
   right: 0;
   width: 220px;
+
+  @include breakpoint_mobile() {
+    box-sizing: border-box;
+    position: static;
+    width: 100%;
+    padding: 0 16px;
+  }
 
   p {
     margin: 20px 0 0 0;
@@ -74,4 +85,12 @@
 
 .section__graph__subtitle {
   margin-bottom: 20px;
+}
+
+.image__full {
+  margin-right: -(250px + 20px);
+
+  @include breakpoint_mobile() {
+    margin-right: 0;
+  }
 }

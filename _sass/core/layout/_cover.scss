@@ -16,7 +16,7 @@
   margin: $scroll-header-height 0 0 0;
 
   color: $white;
-  @include typography-base('xBd', 57px 53px);
+  @include typography-base('xBd', 25px 25px, 57px 53px);
 }
 
 @mixin section__cover__photo__detail() {
@@ -31,7 +31,7 @@
   color: $white;
   letter-spacing: 0.2px;
 
-  @include typography-base('Bd', 16px 20px);
+  @include typography-base('Bd', 12px 14px, 16px 20px);
 }
 
 @mixin section__cover__scroll() {
@@ -44,6 +44,10 @@
     height: 34px;
     width: 100%;
     padding: 20px 0;
+
+    @include breakpoint_mobile() {
+      display: none;
+    }
   }
 
   .section__scroll__text {

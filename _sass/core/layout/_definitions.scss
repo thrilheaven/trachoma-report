@@ -11,3 +11,9 @@ $cover-page-padding: 43px;
 $padding-vertical: 20px;
 
 $scroll-header-height: (87px + $padding-vertical);
+
+@mixin breakpoint_mobile() {
+  @media screen and (max-width: 320px) {
+    @content;
+  }
+}
