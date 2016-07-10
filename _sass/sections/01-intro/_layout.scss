@@ -8,7 +8,7 @@
   @include layout__center();
   z-index: 100;
 
-  @include breakpoint_mobile() {
+  @include breakpoint_below_content() {
     margin: 0 $padding-horizontal-mobile;
     width: calc(100% - $padding-horizontal-mobile * 2);
   }
@@ -23,11 +23,11 @@
   transform: translateX(-50%);
   width: 960px;
 
-  @include breakpoint_mobile() {
+  @include breakpoint_below_content() {
     margin: 0 $padding-horizontal-mobile;
     left: 0;
     transform: none;
-    width: calc(100% - $padding-horizontal-mobile * 2);
+    width: calc(100% - #{$padding-horizontal-mobile} * 2);
   }
 
   background: $sea;
