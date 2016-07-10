@@ -29,8 +29,10 @@
   width: 250px;
 
   @include breakpoint_mobile() {
+    box-sizing: border-box;
     position: static;
     width: 100%;
+    padding: 0 30px 30px 30px;
   }
 
   p {

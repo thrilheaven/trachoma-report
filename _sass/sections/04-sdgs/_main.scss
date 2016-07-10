@@ -304,6 +304,11 @@
 
   @include breakpoint_mobile() {
     padding: 20px;
+
+    .leaving__detail,
+    .leaving__quote {
+      position: static;
+    }
   }
 }
 
@@ -326,6 +331,11 @@
 
   @include breakpoint_mobile() {
     padding: 20px;
+
+    .leaving__detail,
+    .leaving__quote {
+      position: static;
+    }
   }
 }
 
@@ -338,21 +348,29 @@
   padding: 20px;
   width: 300px;
   letter-spacing: 0.2px;
+
+  @include breakpoint_mobile() {
+    width: auto;
+  }
 }
 
 .leaving__quote {
   background: $white-opacity;
   color: $sdgs;
-  @include typography-base('xBd', 30px 30px);
+  @include typography-base('xBd', 22px 22px, 30px 30px);
   box-sizing: border-box;
   margin-bottom: 20px;
   padding: 20px;
   width: 300px;
-  
+
+  @include breakpoint_mobile() {
+    width: auto;
+  }
+
   
   
   p {
-  @include typography-base('xBd', 16px 16px);
+  @include typography-base('xBd', 12px 14px, 16px 16px);
   margin: 0px;
   
   &::before {

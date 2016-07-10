@@ -37,7 +37,7 @@
   padding: $scroll-header-height 0 20px 0;
 
   @include breakpoint_mobile() {
-    padding: $scroll-header-height-mobile $padding-horizontal-mobile 20px $padding-horizontal-mobile;
+    padding: $scroll-header-height-mobile 0 20px 0;
   }
 }
 
