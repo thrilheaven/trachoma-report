@@ -32,6 +32,10 @@
   @include typography-base('xBd', 30px 35px);
   margin: 0;
   padding: $scroll-header-height 0 20px 0;
+
+  @include breakpoint_mobile() {
+    padding: $scroll-header-height-mobile $padding-horizontal-mobile 20px $padding-horizontal-mobile;
+  }
 }
 
 .caption {
@@ -43,8 +47,17 @@
 }
 
 .section__article {
-  width: 960px - 250px - 20px;
+  width: calc(100% - 250px - 20px);
+  max-width: 960px - 250px - 20px;
   
+  @include breakpoint_mobile() {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 $padding-horizontal-mobile;
+  }
+}
+
+.section__article_wide {
   @include breakpoint_mobile() {
     box-sizing: border-box;
     width: 100%;

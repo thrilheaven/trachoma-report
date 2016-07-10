@@ -58,7 +58,7 @@ td, th {
   }
 
 .get2020 {
-  @include breakpoint_mobile() {
+  @media screen and (max-width: 960px) {
     display: none;
   }
 

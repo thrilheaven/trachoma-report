@@ -159,6 +159,11 @@
   margin: 0;
   padding: 107px 0 20px 0;
 }
+@media screen and (max-width: 600px) {
+  .section__title {
+    padding: 90px 16px 20px 16px;
+  }
+}
 
 .caption {
   font-family: "Proxima Nova W08 Reg";
@@ -171,10 +176,19 @@
 }
 
 .section__article {
-  width: 690px;
+  width: calc(100% - 250px - 20px);
+  max-width: 690px;
 }
 @media screen and (max-width: 600px) {
   .section__article {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section__article_wide {
     box-sizing: border-box;
     width: 100%;
     padding: 0 16px;
@@ -274,7 +288,8 @@
 
 .section__foreword__article {
   box-sizing: border-box;
-  width: 650px;
+  width: calc(100% - 250px - 30px * 2);
+  max-width: 650px;
   padding: 30px;
 }
 @media screen and (max-width: 600px) {
@@ -334,6 +349,11 @@
   .section__foreword .section__title {
     font-size: 3.5625rem;
     line-height: 0.92982em;
+  }
+}
+@media screen and (max-width: 600px) {
+  .section__foreword .section__title {
+    padding: 90px 16px 20px 16px;
   }
 }
 
@@ -798,7 +818,8 @@
 
 .section__case_study__article {
   box-sizing: border-box;
-  width: 650px;
+  width: calc(100% - 250px - 30px * 2);
+  max-width: 650px;
   padding: 30px;
 }
 @media screen and (max-width: 600px) {
@@ -953,7 +974,7 @@
   padding-left: 185px;
   position: relative;
   min-height: 180px;
-  width: 630px;
+  width: calc(100% - 185px);
 }
 @media screen and (max-width: 600px) {
   .goal__item {
@@ -1154,7 +1175,11 @@
 
 .leaving__person1 {
   background: url(/sites/all/themes/report-2016/images/photos/azmera.jpg) 0 0 no-repeat;
-  padding: 20px 20px 20px 640px;
+}
+.leaving__person1 .leaving__detail,
+.leaving__person1 .leaving__quote {
+  position: relative;
+  left: calc(100% - 300px - 20px);
 }
 @media screen and (max-width: 600px) {
   .leaving__person1 {
@@ -1172,7 +1197,11 @@
 
 .leaving__person4 {
   background: url(/sites/all/themes/report-2016/images/photos/sisters.jpg) 0 0 no-repeat;
-  padding: 20px 20px 20px 640px;
+}
+.leaving__person4 .leaving__detail,
+.leaving__person4 .leaving__quote {
+  position: relative;
+  left: calc(100% - 300px - 20px);
 }
 @media screen and (max-width: 600px) {
   .leaving__person4 {
@@ -1375,7 +1404,7 @@
     display: block;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 960px) {
   .section6 .get2020 {
     display: none;
   }
