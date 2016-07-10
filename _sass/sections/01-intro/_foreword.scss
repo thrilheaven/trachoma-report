@@ -1,5 +1,9 @@
 .section__foreword {
   background-color: $putty;
+
+  @include breakpoint_below_content() {
+    padding: 0 $padding-horizontal-mobile;
+  }
 }
 
 .section__foreword__wrapper {
@@ -14,9 +18,7 @@
   padding: 30px;
 
   @include breakpoint_mobile() {
-    box-sizing: border-box;
     width: 100%;
-    padding: 0 $padding-horizontal-mobile;
   }
 }
 
@@ -27,10 +29,8 @@
   width: 250px;
 
   @include breakpoint_mobile() {
-    box-sizing: border-box;
     position: static;
     width: 100%;
-    padding: 0 $padding-horizontal-mobile;
   }
 
   p {

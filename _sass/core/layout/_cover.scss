@@ -17,6 +17,10 @@
 
   color: $white;
   @include typography-base('xBd', 25px 25px, 57px 53px);
+
+  @include breakpoint_below_content() {
+    margin-left: $padding-horizontal-mobile;
+  }
 }
 
 @mixin section__cover__photo__detail() {
@@ -32,6 +36,10 @@
   letter-spacing: 0.2px;
 
   @include typography-base('Bd', 12px 14px, 16px 20px);
+
+  @include breakpoint_below_content() {
+    margin-left: $padding-horizontal-mobile;
+  }
 }
 
 @mixin section__cover__scroll() {
