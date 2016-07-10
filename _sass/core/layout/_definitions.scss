@@ -14,6 +14,13 @@ $padding-horizontal-mobile: 16px;
 $scroll-header-height: (87px + $padding-vertical);
 $scroll-header-height-mobile: (70px + $padding-vertical);
 
+
+@mixin breakpoint_below_content() {
+  @media screen and (max-width: 960px) {
+    @content;
+  }
+}
+
 @mixin breakpoint_mobile() {
   @media screen and (max-width: 600px) {
     @content;
