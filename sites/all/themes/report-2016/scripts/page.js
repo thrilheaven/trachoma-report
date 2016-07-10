@@ -49,3 +49,32 @@
 
     });
 })(jQuery);
+
+
+(function($) {
+    $(document).ready(function() {
+        $('.download__title').mouseenter(function(e) {
+            var download = $('.download__list'),
+                language = $('.language__list');
+            language.hide();
+            download.show();
+        });
+
+        $('.download').mouseleave(function(e) {
+            var download = $('.download__list');
+            download.hide();
+        });
+
+        $('.language__title').mouseenter(function(e) {
+            var language = $('.language__list'),
+                download = $('.download__list');
+            download.hide();
+            language.show();
+        });
+
+        $('.language').mouseleave(function(e) {
+            var language = $('.language__list');
+            language.hide();
+        });
+    });
+})(jQuery);

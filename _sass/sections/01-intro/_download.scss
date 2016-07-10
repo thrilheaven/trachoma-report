@@ -7,6 +7,35 @@
 
 .download__list {
   display: none;
+
+  position: fixed;
+  bottom: 0;
+  right: 100px + 10px * 2;
+  z-index: 200;
+
+  margin: 0;
+  padding: 0 2px 0 0;
+
+  li {
+    list-style-type: none;
+  }
+}
+
+.download__item {
+  display: block;
+  background-color: $charcoal-opacity;
+  color: $white;
+  text-decoration: none;
+
+  width: 100px;
+  padding: 10px 10px;
+  margin-top: 2px;
+  @include typography_base('xBd', 12px 12px);
+
+  &:focus,
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .download__title {

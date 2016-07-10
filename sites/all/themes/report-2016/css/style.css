@@ -283,6 +283,32 @@
 
 .download__list {
   display: none;
+  position: fixed;
+  bottom: 0;
+  right: 120px;
+  z-index: 200;
+  margin: 0;
+  padding: 0 2px 0 0;
+}
+.download__list li {
+  list-style-type: none;
+}
+
+.download__item {
+  display: block;
+  background-color: rgba(40, 41, 40, 0.9);
+  color: white;
+  text-decoration: none;
+  width: 100px;
+  padding: 10px 10px;
+  margin-top: 2px;
+  font-family: "Proxima N W01 Xbold";
+  font-weight: normal;
+  font-size: 0.75rem;
+  line-height: 1em;
+}
+.download__item:focus, .download__item:hover {
+  text-decoration: none;
 }
 
 .download__title {
@@ -430,18 +456,39 @@
 }
 
 .language__list {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 120px;
+  z-index: 200;
   margin: 0;
-  padding: 0;
+  padding: 0 2px 0 0;
 }
 .language__list li {
   list-style-type: none;
 }
 
 .language__item {
-  display: none;
+  display: block;
   background-color: rgba(40, 41, 40, 0.9);
   color: white;
   text-decoration: none;
+  width: 100px;
+  padding: 10px 10px;
+  margin-top: 2px;
+  font-family: "Proxima N W01 Xbold";
+  font-weight: normal;
+  font-size: 0.75rem;
+  line-height: 1em;
+}
+.language__item:focus, .language__item:hover {
+  text-decoration: none;
+}
+
+.language__title {
+  background-color: rgba(40, 41, 40, 0.9);
+  color: white;
+  cursor: pointer;
   width: 100px;
   padding: 10px 10px;
   font-family: "Proxima N W01 Xbold";
@@ -449,11 +496,7 @@
   font-size: 0.75rem;
   line-height: 1em;
 }
-
-.language__item__selected {
-  display: block;
-}
-.language__item__selected::after {
+.language__title::after {
   position: absolute;
   content: '';
   background: url(/sites/all/themes/report-2016/images/icons/white-down.svg) 0 0 no-repeat;
@@ -463,10 +506,6 @@
   right: 5px;
   width: 15px;
   height: 13px;
-}
-
-.language__title {
-  display: none;
 }
 
 .section_1_cover {
