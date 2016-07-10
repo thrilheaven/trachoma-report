@@ -37,8 +37,11 @@
   box-sizing: border-box;
   height: 100vh;
   position: relative;
-  background: url("/sites/all/themes/report-2016/images/photos/exec.jpg") 0 0 no-repeat;
-  background-size: cover;
+}
+@media screen and (max-width: 600px) {
+  .section__cover {
+    height: auto;
+  }
 }
 .section__cover .section__scroll {
   position: absolute;
@@ -92,6 +95,14 @@
     margin-left: 16px;
   }
 }
+@media screen and (max-width: 600px) {
+  .section__cover .section__title {
+    display: block;
+    margin-top: 0;
+    padding: 5px 5px 5px 10px;
+    width: calc(100% - 16px * 2 - 10px - 5px);
+  }
+}
 .section__cover .section__cover__detail {
   padding: 15px;
   width: 234px;
@@ -108,6 +119,12 @@
     bottom: 74px;
   }
 }
+@media screen and (min-height: 640px) and (max-width: 600px) {
+  .section__cover .section__cover__detail {
+    position: static;
+  }
+}
+
 @media screen and (min-width: 600px) {
   .section__cover .section__cover__detail {
     font-size: 1rem;
@@ -117,6 +134,14 @@
 @media screen and (max-width: 960px) {
   .section__cover .section__cover__detail {
     margin-left: 16px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .section__cover .section__cover__detail {
+    box-sizing: border-box;
+    margin-left: 0;
+    padding: 15px 16px;
+    width: 100%;
   }
 }
 
@@ -489,7 +514,7 @@
 @media screen and (max-width: 960px) {
   .report__header {
     margin: 0 16px;
-    width: calc(100% - $padding-horizontal-mobile * 2);
+    width: calc(100% - 16px * 2);
   }
 }
 
@@ -669,6 +694,18 @@
 .section_2_cover {
   background: url("/sites/all/themes/report-2016/images/photos/exec.jpg") 0 0 no-repeat;
   background-size: cover;
+}
+@media screen and (max-width: 600px) {
+  .section_2_cover {
+    background: none;
+  }
+  .section_2_cover .section__title__image {
+    box-sizing: border-box;
+    padding-top: 90px;
+    background: url("/sites/all/themes/report-2016/images/photos/exec.jpg") 0 0 no-repeat;
+    background-size: cover;
+    height: 320px;
+  }
 }
 .section_2_cover .section__title {
   background: rgba(0, 133, 144, 0.9);
@@ -915,6 +952,18 @@
   background: url("/sites/all/themes/report-2016/images/photos/what.jpg") 0 0 no-repeat;
   background-size: cover;
 }
+@media screen and (max-width: 600px) {
+  .section_3_cover {
+    background: none;
+  }
+  .section_3_cover .section__title__image {
+    box-sizing: border-box;
+    padding-top: 90px;
+    background: url("/sites/all/themes/report-2016/images/photos/what.jpg") 0 0 no-repeat;
+    background-size: cover;
+    height: 320px;
+  }
+}
 .section_3_cover .section__title {
   background: rgba(59, 182, 170, 0.9);
 }
@@ -958,6 +1007,18 @@
 .section_4_cover {
   background: url("/sites/all/themes/report-2016/images/photos/sdgs.jpg") 0 0 no-repeat;
   background-size: cover;
+}
+@media screen and (max-width: 600px) {
+  .section_4_cover {
+    background: none;
+  }
+  .section_4_cover .section__title__image {
+    box-sizing: border-box;
+    padding-top: 90px;
+    background: url("/sites/all/themes/report-2016/images/photos/sdgs.jpg") 0 0 no-repeat;
+    background-size: cover;
+    height: 320px;
+  }
 }
 .section_4_cover .section__title {
   background: rgba(0, 106, 179, 0.9);
@@ -1004,7 +1065,8 @@
 @media screen and (max-width: 600px) {
   .goal__item {
     box-sizing: border-box;
-    padding: 170px 16px 0 16px;
+    margin-bottom: 20px;
+    padding: 160px 16px 0 16px;
     width: 100%;
   }
 }
@@ -1197,6 +1259,19 @@
   margin: 20px 0;
   padding: 20px;
 }
+@media screen and (max-width: 600px) {
+  .leaving__person {
+    margin-left: -16px;
+    margin-right: -16px;
+    width: calc(100% + 16px * 2);
+    padding: 0;
+  }
+  .leaving__person .leaving__image {
+    box-sizing: border-box;
+    padding: 20px 16px;
+    height: 320px;
+  }
+}
 
 .leaving__person1 {
   background: url(/sites/all/themes/report-2016/images/photos/azmera.jpg) 0 0 no-repeat;
@@ -1208,7 +1283,11 @@
 }
 @media screen and (max-width: 600px) {
   .leaving__person1 {
-    padding: 20px;
+    background: none;
+  }
+  .leaving__person1 .leaving__image {
+    background: url(/sites/all/themes/report-2016/images/photos/azmera.jpg) 0 0 no-repeat;
+    background-size: cover;
   }
   .leaving__person1 .leaving__detail,
   .leaving__person1 .leaving__quote {
@@ -1219,9 +1298,27 @@
 .leaving__person2 {
   background: url(/sites/all/themes/report-2016/images/photos/chief.jpg) 0 0 no-repeat;
 }
+@media screen and (max-width: 600px) {
+  .leaving__person2 {
+    background: none;
+  }
+  .leaving__person2 .leaving__image {
+    background: url(/sites/all/themes/report-2016/images/photos/chief.jpg) 0 0 no-repeat;
+    background-size: cover;
+  }
+}
 
 .leaving__person3 {
   background: url(/sites/all/themes/report-2016/images/photos/adiyo.jpg) 0 0 no-repeat;
+}
+@media screen and (max-width: 600px) {
+  .leaving__person3 {
+    background: none;
+  }
+  .leaving__person3 .leaving__image {
+    background: url(/sites/all/themes/report-2016/images/photos/adiyo.jpg) 0 0 no-repeat;
+    background-size: cover;
+  }
 }
 
 .leaving__person4 {
@@ -1234,7 +1331,11 @@
 }
 @media screen and (max-width: 600px) {
   .leaving__person4 {
-    padding: 20px;
+    background: none;
+  }
+  .leaving__person4 .leaving__image {
+    background: url(/sites/all/themes/report-2016/images/photos/sisters.jpg) 0 0 no-repeat;
+    background-size: cover;
   }
   .leaving__person4 .leaving__detail,
   .leaving__person4 .leaving__quote {
@@ -1281,7 +1382,8 @@
 }
 @media screen and (max-width: 600px) {
   .leaving__quote {
-    width: auto;
+    width: 180px;
+    padding: 10px;
   }
 }
 .leaving__quote p {
@@ -1325,6 +1427,18 @@
 .section_5_cover {
   background: url("/sites/all/themes/report-2016/images/photos/blueprint.jpg") 0 0 no-repeat;
   background-size: cover;
+}
+@media screen and (max-width: 600px) {
+  .section_5_cover {
+    background: none;
+  }
+  .section_5_cover .section__title__image {
+    box-sizing: border-box;
+    padding-top: 90px;
+    background: url("/sites/all/themes/report-2016/images/photos/blueprint.jpg") 0 0 no-repeat;
+    background-size: cover;
+    height: 320px;
+  }
 }
 .section_5_cover .section__title {
   background: rgba(0, 84, 124, 0.9);
@@ -1399,6 +1513,18 @@
 .section_6_cover {
   background: url("/sites/all/themes/report-2016/images/photos/data.jpg") 0 0 no-repeat;
   background-size: cover;
+}
+@media screen and (max-width: 600px) {
+  .section_6_cover {
+    background: none;
+  }
+  .section_6_cover .section__title__image {
+    box-sizing: border-box;
+    padding-top: 90px;
+    background: url("/sites/all/themes/report-2016/images/photos/data.jpg") 0 0 no-repeat;
+    background-size: cover;
+    height: 320px;
+  }
 }
 .section_6_cover .section__title {
   background: rgba(101, 63, 146, 0.9);

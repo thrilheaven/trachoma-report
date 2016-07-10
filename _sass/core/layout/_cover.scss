@@ -4,10 +4,33 @@
   position: relative;
 }
 
+@mixin layout__cover__section() {
+  @include layout__cover();
+
+  @include breakpoint_mobile() {
+    height: auto;
+  }
+}
+
 @mixin layout__cover__image($url) {
   $url: '/sites/all/themes/report-2016/images/#{$url}';
   background: url($url) 0 0 no-repeat;
   background-size: cover;
+}
+
+@mixin layout__cover__image__section($url) {
+  @include layout__cover__image($url);
+
+  @include breakpoint_mobile() {
+    background: none;
+
+    .section__title__image {
+      box-sizing: border-box;
+      padding-top: 70px + 20px;
+      @include layout__cover__image($url);
+      height: 320px;
+    }
+  }
 }
 
 @mixin section__cover__title() {
@@ -21,12 +44,23 @@
   @include breakpoint_below_content() {
     margin-left: $padding-horizontal-mobile;
   }
+
+  @include breakpoint_mobile() {
+    display: block;
+    margin-top: 0;
+    padding: 5px 5px 5px 10px;
+    width: calc(100% - #{$padding-horizontal-mobile} * 2 - 10px - 5px);
+  }
 }
 
 @mixin section__cover__photo__detail() {
   @media screen and (min-height: 640px) {
     position: absolute;
     bottom: 34px + 2 * 20px;
+
+    @include breakpoint_mobile() {
+      position: static;;
+    }
   }
 
   padding: 15px;
@@ -39,6 +73,13 @@
 
   @include breakpoint_below_content() {
     margin-left: $padding-horizontal-mobile;
+  }
+
+  @include breakpoint_mobile() {
+    box-sizing: border-box;
+    margin-left: 0;
+    padding: 15px $padding-horizontal-mobile;
+    width: 100%;
   }
 }
 

@@ -42,7 +42,8 @@
 
   @include breakpoint_mobile() {
     box-sizing: border-box;
-    padding: (150px + 20px) $padding-horizontal-mobile 0 $padding-horizontal-mobile;
+    margin-bottom: 20px;
+    padding: (150px + 10px) $padding-horizontal-mobile 0 $padding-horizontal-mobile;
     width: 100%;
   }
 
@@ -291,9 +292,22 @@
   height: 567px;
   margin: 20px 0;
   padding: 20px;
-}
 
-.leaving__person1 {
+  @include breakpoint_mobile() {
+    margin-left: -$padding-horizontal-mobile;
+    margin-right: -$padding-horizontal-mobile;
+    width: calc(100% + #{$padding-horizontal-mobile} * 2);
+
+    padding: 0;
+
+    .leaving__image {
+      box-sizing: border-box;
+      padding: 20px $padding-horizontal-mobile;
+      height: 320px;
+    }
+  }
+}
+  .leaving__person1 {
   background: url(/sites/all/themes/report-2016/images/photos/azmera.jpg) 0 0 no-repeat;
 
   .leaving__detail,
@@ -303,7 +317,12 @@
   }
 
   @include breakpoint_mobile() {
-    padding: 20px;
+    background: none;
+
+    .leaving__image {
+      background: url(/sites/all/themes/report-2016/images/photos/azmera.jpg) 0 0 no-repeat;
+      background-size: cover;
+    }
 
     .leaving__detail,
     .leaving__quote {
@@ -314,10 +333,28 @@
 
 .leaving__person2 {
   background: url(/sites/all/themes/report-2016/images/photos/chief.jpg) 0 0 no-repeat;
+
+  @include breakpoint_mobile() {
+    background: none;
+
+    .leaving__image {
+      background: url(/sites/all/themes/report-2016/images/photos/chief.jpg) 0 0 no-repeat;
+      background-size: cover;
+    }
+  }
 }
 
 .leaving__person3 {
   background: url(/sites/all/themes/report-2016/images/photos/adiyo.jpg) 0 0 no-repeat;
+
+  @include breakpoint_mobile() {
+    background: none;
+
+    .leaving__image {
+      background: url(/sites/all/themes/report-2016/images/photos/adiyo.jpg) 0 0 no-repeat;
+      background-size: cover;
+    }
+  }
 }
 
 .leaving__person4 {
@@ -330,7 +367,12 @@
   }
 
   @include breakpoint_mobile() {
-    padding: 20px;
+    background: none;
+
+    .leaving__image {
+      background: url(/sites/all/themes/report-2016/images/photos/sisters.jpg) 0 0 no-repeat;
+      background-size: cover;
+    }
 
     .leaving__detail,
     .leaving__quote {
@@ -364,7 +406,8 @@
   width: 300px;
 
   @include breakpoint_mobile() {
-    width: auto;
+    width: 180px;
+    padding: 10px;
   }
 
   

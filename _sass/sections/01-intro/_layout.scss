@@ -10,7 +10,7 @@
 
   @include breakpoint_below_content() {
     margin: 0 $padding-horizontal-mobile;
-    width: calc(100% - $padding-horizontal-mobile * 2);
+    width: calc(100% - #{$padding-horizontal-mobile} * 2);
   }
 
   background: $sea-opacity;
