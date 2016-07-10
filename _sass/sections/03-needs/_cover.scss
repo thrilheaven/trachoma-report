@@ -1,5 +1,5 @@
 .section_3_cover {
-  @include layout__cover__image('photos/what.jpg');
+  @include layout__cover__image__section('photos/what.jpg');
 
   .section__title {
     background: $aqua-opacity;

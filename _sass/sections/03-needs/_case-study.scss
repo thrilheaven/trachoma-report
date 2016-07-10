@@ -3,6 +3,10 @@
   padding: 30px 0;
   @include typography-base('Rg', 16px 20px);
 
+  @include breakpoint_below_content() {
+    padding: 30px $padding-horizontal-mobile;
+  }
+
   .section__intro {
     color: $royal;
     @include typography-base('Rg', 20px 23px);
@@ -44,13 +48,22 @@
     border-style: solid;
     border-width: 190px 0 0 170px;
     border-color: $sea transparent transparent $putty;
+
+    @include breakpoint_mobile() {
+      display: none;
+    }
   }
 }
 
 .section__case_study__article {
   box-sizing: border-box;
-  width: 960px - 250px - 30px * 2;
+  width: calc(100% - 250px - 30px * 2);
+  max-width: 960px - 250px - 30px * 2;
   padding: 30px;
+
+  @include breakpoint_mobile() {
+    width: 100%;
+  }
 }
 
 .section__case_study__aside {
@@ -58,7 +71,14 @@
   top: 190px + 40px;
   right: 30px;
   width: 250px;
-  
+
+  @include breakpoint_mobile() {
+    box-sizing: border-box;
+    position: static;
+    width: 100%;
+    padding: 0 30px 30px 30px;
+  }
+
 
   p {
     margin: 20px 0 0 0;
@@ -100,4 +120,8 @@
   position: absolute;
   right: 75px;
   top: 160px;
+
+  @include breakpoint_mobile() {
+    display: none;
+  }
 }

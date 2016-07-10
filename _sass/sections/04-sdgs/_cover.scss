@@ -1,9 +1,9 @@
 .section_4_cover {
-  @include layout__cover__image('photos/sdgs.jpg');
+  @include layout__cover__image__section('photos/sdgs.jpg');
 
   .section__title {
     background: $royal-opacity;
-    width: 360px;
+    max-width: 360px;
   }
 
   .section__cover__detail {

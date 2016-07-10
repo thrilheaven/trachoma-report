@@ -2,8 +2,11 @@
   @include layout__center();
   @include layout__clearfix();
   @include typography-base('Rg', 16px 20px);
-  
-  
+
+  @include breakpoint_below_content() {
+    padding: 0 $padding-horizontal-mobile;
+  }
+
 
   em,
   i {
@@ -25,13 +28,17 @@
 .section__subtitle {
   @include typography-base('xBd', 20px 23px);
   margin: (40px - 5px) 0 0 0;
-  width: 530px;
+  max-width: 530px;
 }
 
 .section__title {
   @include typography-base('xBd', 30px 35px);
   margin: 0;
   padding: $scroll-header-height 0 20px 0;
+
+  @include breakpoint_mobile() {
+    padding: $scroll-header-height-mobile 0 20px 0;
+  }
 }
 
 .caption {
@@ -43,9 +50,18 @@
 }
 
 .section__article {
-  width: 960px - 250px - 20px;
+  width: calc(100% - 250px - 20px);
+  max-width: 960px - 250px - 20px;
   
-  
+  @include breakpoint_mobile() {
+    width: 100%;
+  }
+}
+
+.section__article_wide {
+  @include breakpoint_mobile() {
+    width: 100%;
+  }
 }
 
 .section__aside {
@@ -53,6 +69,11 @@
   top: 5px;
   right: 0;
   width: 220px;
+
+  @include breakpoint_mobile() {
+    position: static;
+    width: 100%;
+  }
 
   p {
     margin: 20px 0 0 0;
@@ -74,4 +95,12 @@
 
 .section__graph__subtitle {
   margin-bottom: 20px;
+}
+
+.image__full {
+  margin-right: -(250px + 20px);
+
+  @include breakpoint_mobile() {
+    margin-right: 0;
+  }
 }

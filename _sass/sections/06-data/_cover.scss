@@ -1,5 +1,5 @@
 .section_6_cover {
-  @include layout__cover__image('photos/data.jpg');
+  @include layout__cover__image__section('photos/data.jpg');
 
   .section__title {
     background: $velvet-opacity;
