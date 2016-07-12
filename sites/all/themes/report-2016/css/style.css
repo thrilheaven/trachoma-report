@@ -308,6 +308,7 @@
   line-height: 1em;
 }
 .download__item:focus, .download__item:hover {
+  color: #009ee3;
   text-decoration: none;
 }
 
@@ -322,6 +323,9 @@
   font-size: 0.75rem;
   line-height: 1em;
   cursor: pointer;
+}
+.download__title:focus, .download__title:hover {
+  color: #009ee3;
 }
 .download__title::after {
   position: absolute;
@@ -482,6 +486,7 @@
   line-height: 1em;
 }
 .language__item:focus, .language__item:hover {
+  color: #009ee3;
   text-decoration: none;
 }
 
@@ -495,6 +500,9 @@
   font-weight: normal;
   font-size: 0.75rem;
   line-height: 1em;
+}
+.language__title:focus, .language__title:hover {
+  color: #009ee3;
 }
 .language__title::after {
   position: absolute;

@@ -34,6 +34,7 @@
 
   &:focus,
   &:hover {
+    color: $sea;
     text-decoration: none;
   }
 }
@@ -46,6 +47,11 @@
   width: 100px;
   padding: 10px 10px;
   @include typography_base('xBd', 12px 12px);
+
+  &:focus,
+  &:hover {
+    color: $sea;
+  }
 
   &::after {
     position: absolute;
