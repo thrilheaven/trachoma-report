@@ -1173,7 +1173,7 @@
 }
 
 .goal__item__inequalities_es {
-  width: 645px;
+  max-width: 645px;
 }
 .goal__item__inequalities_es::before {
   background: url(/sites/all/themes/report-2016/images/icons/es/sdg_10.svg) 0 0 no-repeat;
@@ -1212,7 +1212,7 @@
 }
 
 .goal__item__inequalities_fr {
-  width: 690px;
+  max-width: 690px;
 }
 .goal__item__inequalities_fr::before {
   background: url(/sites/all/themes/report-2016/images/icons/fr/sdg_10.svg) 0 0 no-repeat;
