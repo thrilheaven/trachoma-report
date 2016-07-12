@@ -12,6 +12,10 @@
   text-decoration: none;
   letter-spacing: 0.2px;
 
+  @media screen and (max-width: 959px) {
+    height: 24px;
+  }
+
   @include breakpoint_mobile() {
     height: 16px;
   }

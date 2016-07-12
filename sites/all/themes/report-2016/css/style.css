@@ -609,6 +609,11 @@
   text-decoration: none;
   letter-spacing: 0.2px;
 }
+@media screen and (max-width: 959px) {
+  .main-navigation__item {
+    height: 24px;
+  }
+}
 @media screen and (max-width: 600px) {
   .main-navigation__item {
     height: 16px;
