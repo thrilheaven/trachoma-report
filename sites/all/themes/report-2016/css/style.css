@@ -875,6 +875,11 @@
     padding: 30px 16px;
   }
 }
+@media screen and (max-width: 600px) {
+  .section__case_study {
+    margin-top: 20px;
+  }
+}
 .section__case_study .section__intro {
   color: #006ab3;
   font-family: "Proxima Nova W08 Reg";
@@ -1118,7 +1123,7 @@
 @media screen and (max-width: 600px) {
   .goal__item {
     box-sizing: border-box;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     padding: 160px 16px 0 16px;
     width: 100%;
   }
@@ -1636,6 +1641,9 @@
   .section6 td,
   .section6 th {
     display: block;
+  }
+  .section6 td:first-child p {
+    margin-bottom: 0;
   }
 }
 @media screen and (max-width: 960px) {

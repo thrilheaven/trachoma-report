@@ -7,6 +7,10 @@
     padding: 30px $padding-horizontal-mobile;
   }
 
+  @include breakpoint_mobile() {
+    margin-top: 20px;
+  }
+
   .section__intro {
     color: $royal;
     @include typography-base('Rg', 20px 23px);

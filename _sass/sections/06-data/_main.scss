@@ -55,6 +55,10 @@ td, th {
     th {
       display: block;
     }
+
+    td:first-child p {
+      margin-bottom: 0;
+    }
   }
 
 .get2020 {

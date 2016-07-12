@@ -42,7 +42,7 @@
 
   @include breakpoint_mobile() {
     box-sizing: border-box;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     padding: (150px + 10px) $padding-horizontal-mobile 0 $padding-horizontal-mobile;
     width: 100%;
   }
