@@ -55,11 +55,18 @@
   }
 }
 
+.section__case_study__subsection {
+  position: relative;
+}
+
+.section__case_study__inner_wrapper {
+  padding: 30px;
+}
+
 .section__case_study__article {
   box-sizing: border-box;
   width: calc(100% - 250px - 30px * 2);
   max-width: 960px - 250px - 30px * 2;
-  padding: 30px;
 
   @include breakpoint_mobile() {
     width: 100%;
@@ -68,7 +75,7 @@
 
 .section__case_study__aside {
   position: absolute;
-  top: 190px + 40px;
+  top: 0;
   right: 30px;
   width: 250px;
 
@@ -94,20 +101,10 @@
     
 }
 
-.leading {
-    top: 1552px;
-    }
-.fr_leading {
-	top: 1720px;
-	}   
-	
-.es_leading {
-	top: 1595px;
-	} 
-.pt_leading {
-	top: 1615px;
-	} 		 
-    
+.section__case_study__aside__top {
+  top: 190px + 40px;
+}
+
 .case_study__image {
   float: left;
   margin: 5px 10px 10px 0;

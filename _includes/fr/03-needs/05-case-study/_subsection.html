@@ -1,17 +1,24 @@
 <section class="section__case_study">
     <div class="section__case_study__wrapper">
-        <article class="section__case_study__article">
-            <h2 class="section__title">Transformation en action  <span class="section__title__highlight">L’Éthiopie sur les devants de la scène</span></h2>
-            {% include fr/03-needs/05-case-study/text.html %}
-            {% include fr/03-needs/05-case-study/maps.html %}
-            {% include fr/03-needs/05-case-study/text2.html %}
-        </article>
-        <aside class="section__case_study__aside">
-            {% include fr/03-needs/05-case-study/sidebar.html %}
-        </aside>
-        <aside class="section__case_study__aside fr_leading">
-            {% include fr/03-needs/05-case-study/sidebar2.html %}
-        </aside>
-        
+        <div class="section__case_study__inner_wrapper">
+            <div class="section__case_study__subsection">
+                <article class="section__case_study__article">
+                    <h2 class="section__title">Transformation in action <span class="section__title__highlight">Ethiopia in the spotlight</span></h2>
+                    {% include fr/03-needs/05-case-study/text.html %}
+                    {% include fr/03-needs/05-case-study/maps.html %}
+                </article>
+                <aside class="section__case_study__aside section__case_study__aside__top">
+                    {% include fr/03-needs/05-case-study/sidebar.html %}
+                </aside>
+            </div>
+            <div class="section__case_study__subsection">
+                <article class="section__case_study__article">
+                    {% include fr/03-needs/05-case-study/text2.html %}
+                </article>
+                <aside class="section__case_study__aside">
+                    {% include fr/03-needs/05-case-study/sidebar2.html %}
+                </aside>
+            </div>
+        </div>
     </div>
 </section>
