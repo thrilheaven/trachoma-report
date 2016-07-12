@@ -364,6 +364,7 @@
 @media screen and (max-width: 600px) {
   .section__foreword__article {
     width: 100%;
+    padding: 15px;
   }
 }
 
@@ -378,7 +379,7 @@
     box-sizing: border-box;
     position: static;
     width: 100%;
-    padding: 0 30px 30px 30px;
+    padding: 0 15px 15px 15px;
   }
 }
 .section__foreword__aside p {
@@ -934,6 +935,11 @@
 .section__case_study__inner_wrapper {
   padding: 30px;
 }
+@media screen and (max-width: 600px) {
+  .section__case_study__inner_wrapper {
+    padding: 15px;
+  }
+}
 
 .section__case_study__article {
   box-sizing: border-box;
@@ -957,7 +963,7 @@
     box-sizing: border-box;
     position: static;
     width: 100%;
-    padding: 0 30px 30px 30px;
+    padding: 0 15px 15px 15px;
   }
 }
 .section__case_study__aside p {

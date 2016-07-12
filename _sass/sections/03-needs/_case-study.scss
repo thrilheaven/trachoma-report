@@ -61,6 +61,10 @@
 
 .section__case_study__inner_wrapper {
   padding: 30px;
+
+  @include breakpoint_mobile() {
+    padding: 15px;
+  }
 }
 
 .section__case_study__article {
@@ -83,7 +87,7 @@
     box-sizing: border-box;
     position: static;
     width: 100%;
-    padding: 0 30px 30px 30px;
+    padding: 0 15px 15px 15px;
   }
 
 
