@@ -266,6 +266,7 @@
 }
 
 .image__full {
+  max-width: 960px;
   margin-right: -270px;
 }
 @media screen and (max-width: 600px) {
