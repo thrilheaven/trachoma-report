@@ -1469,17 +1469,38 @@
 .fr_quote {
   font-family: "Proxima N W01 Xbold";
   font-weight: normal;
-  font-size: 1.4375rem;
+  font-size: 1.125rem;
   line-height: 1em;
   width: 330px;
+}
+@media screen and (min-width: 600px) {
+  .fr_quote {
+    font-size: 1.4375rem;
+    line-height: 1em;
+  }
+}
+@media screen and (max-width: 600px) {
+  .fr_quote {
+    width: 180px;
+    padding: 10px;
+  }
 }
 
 .fr_detail {
   width: 330px;
 }
+@media screen and (max-width: 600px) {
+  .fr_detail {
+    width: auto;
+    padding: 10px;
+  }
+}
 
-.fr_right {
-  padding-left: 610px;
+.leaving__person1 .fr_detail,
+.leaving__person1 .fr_quote,
+.leaving__person4 .fr_detail,
+.leaving__person4 .fr_quote {
+  left: calc(100% - 330px - 20px);
 }
 
 .section_5_cover {

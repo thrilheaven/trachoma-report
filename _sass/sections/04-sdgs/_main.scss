@@ -429,13 +429,27 @@
   
 }
 .fr_quote {
-  @include typography-base('xBd', 23px 23px);
+  @include typography-base('xBd', 18px 18px, 23px 23px);
   width:330px;
+
+  @include breakpoint_mobile() {
+    width: 180px;
+    padding: 10px;
   }
-  .fr_detail {
+}
+.fr_detail {
   width:330px;
+
+  @include breakpoint_mobile() {
+    width: auto;
+    padding: 10px;
   }
-  
-  .fr_right {
-  padding-left:610px;
+}
+
+.leaving__person1,
+.leaving__person4 {
+  .fr_detail,
+  .fr_quote {
+    left: calc(100% - 330px - 20px);
   }
+}
