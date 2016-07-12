@@ -46,10 +46,8 @@
   }
 
   @include breakpoint_mobile() {
-    display: block;
     margin-top: 0;
     padding: 5px 5px 5px 10px;
-    width: calc(100% - #{$padding-horizontal-mobile} * 2 - 10px - 5px);
   }
 }
 
