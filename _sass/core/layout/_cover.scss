@@ -14,7 +14,7 @@
 
 @mixin layout__cover__image($url) {
   $url: '/sites/all/themes/report-2016/images/#{$url}';
-  background: url($url) 0 0 no-repeat;
+  background: url($url) center center no-repeat;
   background-size: cover;
 }
 

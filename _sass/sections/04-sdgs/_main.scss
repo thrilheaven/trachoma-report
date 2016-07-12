@@ -308,7 +308,7 @@
   }
 }
   .leaving__person1 {
-  background: url(/sites/all/themes/report-2016/images/photos/azmera.jpg) 0 0 no-repeat;
+  background: url(/sites/all/themes/report-2016/images/photos/azmera.jpg) center center no-repeat;
 
   .leaving__detail,
   .leaving__quote {
@@ -320,7 +320,7 @@
     background: none;
 
     .leaving__image {
-      background: url(/sites/all/themes/report-2016/images/photos/azmera.jpg) 0 0 no-repeat;
+      background: url(/sites/all/themes/report-2016/images/photos/azmera.jpg) center center no-repeat;
       background-size: cover;
     }
 
@@ -332,33 +332,33 @@
 }
 
 .leaving__person2 {
-  background: url(/sites/all/themes/report-2016/images/photos/chief.jpg) 0 0 no-repeat;
+  background: url(/sites/all/themes/report-2016/images/photos/chief.jpg) center center no-repeat;
 
   @include breakpoint_mobile() {
     background: none;
 
     .leaving__image {
-      background: url(/sites/all/themes/report-2016/images/photos/chief.jpg) 0 0 no-repeat;
+      background: url(/sites/all/themes/report-2016/images/photos/chief.jpg) center center no-repeat;
       background-size: cover;
     }
   }
 }
 
 .leaving__person3 {
-  background: url(/sites/all/themes/report-2016/images/photos/adiyo.jpg) 0 0 no-repeat;
+  background: url(/sites/all/themes/report-2016/images/photos/adiyo.jpg) center center no-repeat;
 
   @include breakpoint_mobile() {
     background: none;
 
     .leaving__image {
-      background: url(/sites/all/themes/report-2016/images/photos/adiyo.jpg) 0 0 no-repeat;
+      background: url(/sites/all/themes/report-2016/images/photos/adiyo.jpg) center center no-repeat;
       background-size: cover;
     }
   }
 }
 
 .leaving__person4 {
-  background: url(/sites/all/themes/report-2016/images/photos/sisters.jpg) 0 0 no-repeat;
+  background: url(/sites/all/themes/report-2016/images/photos/sisters.jpg) center center no-repeat;
 
   .leaving__detail,
   .leaving__quote {
@@ -370,7 +370,7 @@
     background: none;
 
     .leaving__image {
-      background: url(/sites/all/themes/report-2016/images/photos/sisters.jpg) 0 0 no-repeat;
+      background: url(/sites/all/themes/report-2016/images/photos/sisters.jpg) center center no-repeat;
       background-size: cover;
     }
 
