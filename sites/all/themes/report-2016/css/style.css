@@ -1728,6 +1728,16 @@
   color: white;
   font-weight: bold;
 }
+.section6 a {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
 
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
