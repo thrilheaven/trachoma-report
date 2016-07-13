@@ -25,6 +25,7 @@
     background: none;
 
     .section__title__image {
+      position: relative;
       box-sizing: border-box;
       padding-top: 70px + 20px;
       @include layout__cover__image($url);
@@ -43,9 +44,13 @@
 
   @include breakpoint_below_content() {
     margin-left: $padding-horizontal-mobile;
+    margin-right: $padding-horizontal-mobile;
   }
 
   @include breakpoint_mobile() {
+    position: absolute;
+    bottom: $padding-horizontal-mobile;
+    
     margin-top: 0;
     padding: 5px 5px 5px 10px;
   }
