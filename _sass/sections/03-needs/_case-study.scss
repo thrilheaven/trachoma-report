@@ -123,8 +123,8 @@
   color: $royal;
 
   position: absolute;
-  right: 75px;
-  top: 160px;
+  right: 45px;
+  top: 120px;
 
   @include breakpoint_mobile() {
     display: none;

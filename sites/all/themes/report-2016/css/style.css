@@ -1000,8 +1000,8 @@
   line-height: 1em;
   color: #006ab3;
   position: absolute;
-  right: 75px;
-  top: 160px;
+  right: 45px;
+  top: 120px;
 }
 @media screen and (max-width: 600px) {
   .case_study__section {
