@@ -61,10 +61,24 @@ td, th {
     }
   }
 
+.image__replace {
+    display: none;
+  }
+  
+  .image__replace {
+  @include breakpoint_below_content() {
+    display: block;
+  }
+  }
+
+  
+
 .get2020 {
   @include breakpoint_below_content() {
     display: none;
   }
+  
+  
 
   table {
     width:100%;

@@ -1674,6 +1674,14 @@
     margin-bottom: 0;
   }
 }
+.section6 .image__replace {
+  display: none;
+}
+@media screen and (max-width: 960px) {
+  .section6 .image__replace {
+    display: block;
+  }
+}
 @media screen and (max-width: 960px) {
   .section6 .get2020 {
     display: none;
