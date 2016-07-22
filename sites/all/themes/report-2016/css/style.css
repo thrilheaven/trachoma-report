@@ -1117,6 +1117,9 @@
   padding-left: 0;
   margin: 20px 0 0 0;
 }
+.goal__list blockquote {
+  padding: 0 0 20px;
+}
 
 .goal__item {
   list-style-type: none;
@@ -1651,6 +1654,9 @@
   font-size: 0.875rem;
   line-height: 1.14286em;
   margin: 20px 0 30px;
+}
+.section6 .disclaimer b {
+  color: #653f92;
 }
 .section6 em {
   color: #653f92;

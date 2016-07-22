@@ -30,6 +30,10 @@
   .disclaimer {
     @include typography-base('Rg', 14px 16px);
     margin: 20px 0 30px;
+    
+    b {
+    color: $data;
+    }
   }
 
 
